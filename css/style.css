@@ -1,1 +1,38 @@
 /* this will be used to track my own stylez */
+h2 {
+    text-align: center;
+}
+
+/* by default, the two big caveats are not visible */
+#toolz, #open-source {
+    opacity: 0;
+
+    -webkit-transition: opacity 1s;
+       -moz-transition: opacity 1s;
+        -ms-transition: opacity 1s;
+         -o-transition: opacity 1s;
+            transition: opacity 1s;
+
+    width: 500px;
+}
+
+/* make the text on these elements available */
+.impress-on-toolz #toolz {
+    opacity: 1;
+
+    -webkit-transition: opacity 1s;
+       -moz-transition: opacity 1s;
+        -ms-transition: opacity 1s;
+         -o-transition: opacity 1s;
+            transition: opacity 1s;
+}
+
+.impress-on-open-source #open-source {
+    opacity: 1;
+
+    -webkit-transition: opacity 1s;
+       -moz-transition: opacity 1s;
+        -ms-transition: opacity 1s;
+         -o-transition: opacity 1s;
+            transition: opacity 1s;
+}

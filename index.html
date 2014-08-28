@@ -35,33 +35,72 @@
     </p>
   </div>
 
-  <!--
-       hint for how to view presentation. this is manipulated in
-       presentation.js for mobile devices
+  <!-- <\!-- -->
+  <!--      hint for how to view presentation. this is manipulated in -->
+  <!--      presentation.js for mobile devices -->
 
-       TODO: should probably figure out a way to do that better with
-       styling or modernizr
-    -->
-  <div class="hint">
-    <p>Use a spacebar or arrow keys to navigate</p>
-  </div>
+  <!--      TODO: should probably figure out a way to do that better with -->
+  <!--      styling or modernizr -->
+  <!--   -\-> -->
+  <!-- <div class="hint"> -->
+  <!--   <p>Use a spacebar or arrow keys to navigate</p> -->
+  <!-- </div> -->
     
   <!--
        This is where the actual presentation goes
     -->
   <div id="impress">
 
-    <div id="title" class="step slide" data-x="-1000" data-y="-1500">
-      <p>This is a placeholder title slide.</p>
-      <p>Isn't it nice?</p>
+    <div id="title" class="step slide" data-x="0" data-y="0">
+      <img src="img/landscape.png" alt="landscape of open source data tools" width="1275" height="825"/>
     </div>
 
-    <div class="step slide" data-x="0" data-y="-1500">
-        <q>Don't you think that presentations given <strong>in modern browsers</strong> shouldn't <strong>copy the limits</strong> of 'classic' slide decks?</q>
+    <div id="toolz" class="step slide" data-x="0" data-y="0" data-scale="1000">
+      <h2>tools don't dictate solutions</h2>
+      <p>
+	Goal of this talk is to build awareness of available tools,
+	not limit solution sets.
+      </p>
     </div>
 
-    <div class="step slide" data-x="1000" data-y="-1500">
-        <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
+    <div id="open-source" class="step slide" data-x="0" data-y="0" data-scale="1000">
+      <p>
+	<b>disclaimer:</b> <br/> focus here is on <i>open source</i>
+	tools (no licensing fee, ever)
+      </p>
+      <p>
+	<b>don't see tool X?</b> <br/>
+	<a href="http://github.com/deanmalmgren/open-data-landscape/issues">contribute!</a>
+	
+      </p>
+
+    </div>
+
+    <div class="step slide" data-x="0" data-y="0">
+    </div>
+
+    <div class="step slide" data-x="450" data-y="-350">
+      <h2>aggregation</h2>
+    </div>
+
+    <div class="step slide" data-x="75" data-y="-225">
+      <h2>storage</h2>
+    </div>
+
+    <div class="step slide" data-x="350" data-y="100">
+      <h2>analysis</h2>
+    </div>
+
+    <div class="step slide" data-x="-350" data-y="0">
+      <h2>web frameworks</h2>
+    </div>
+
+    <div class="step slide" data-x="-100" data-y="75">
+      <h2>visualization</h2>
+    </div>
+
+    <div class="step slide" data-x="-550" data-y="-275">
+      <h2>organization</h2>
     </div>
 
   </div>
@@ -70,6 +109,7 @@
   <!--
       JAVASCRIPT. BOOM.
     -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/impress.js/0.5.3/impress.min.js"></script>
   <script src="js/presentation.js"></script>
 
