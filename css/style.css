@@ -13,9 +13,10 @@
 }
 
 .fallback-message p {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-/* .impress-supported .fallback-message { */
-/*     display: none; */
-/* } */
+.impress-supported .fallback-message {
+    display: none;
+}
