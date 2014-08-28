@@ -36,3 +36,29 @@ h2 {
          -o-transition: opacity 1s;
             transition: opacity 1s;
 }
+
+/************************************************ styling for lists of tools */
+.details {
+    width: 200px;
+    height: 400px;
+    opacity: 0.3;
+    /* border: 1px solid black; */
+
+    -webkit-transition: opacity 1s;
+       -moz-transition: opacity 1s;
+        -ms-transition: opacity 1s;
+         -o-transition: opacity 1s;
+            transition: opacity 1s;
+}
+.details.active {
+    opacity: 1;
+
+    -webkit-transition: opacity 1s;
+       -moz-transition: opacity 1s;
+        -ms-transition: opacity 1s;
+         -o-transition: opacity 1s;
+            transition: opacity 1s;
+}
+.details h2 {
+    text-align: left;
+}
