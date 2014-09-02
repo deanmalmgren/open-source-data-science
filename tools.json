@@ -110,55 +110,54 @@
 
     {
 	"name": "MySQL",
-	"good_for": ["storage-relational_database"]
+	"good_for": ["storage-relational"]
     },
     {
 	"name": "Postgres",
-	"good_for": ["storage-relational_database"]
+	"good_for": ["storage-relational"]
     },
     {
 	"name": "Fusion tables",
-	"good_for": ["storage-relational_database"]
+	"good_for": ["storage-relational"]
     },
     {
 	"name": "Hive",
 	"documentation": "https://hive.apache.org/",
 	"license": "Apache 2.0",
-	"good_for": ["storage-relational_database"]
+	"good_for": ["storage-relational"]
     },
     {
 	"name": "HBase",
 	"documentation": "https://hbase.apache.org/",
 	"license": "Apache 2.0",
-	"good_for": ["storage-relational_database"]
+	"good_for": ["storage-relational"]
     },
 
     {
 	"name": "MongoDB",
 	"license": "AGPL 3.0",
 	"documentation": "http://www.mongodb.org/",
-	"good_for": ["storage-nosql_database"]
+	"good_for": ["storage-nosql"]
     },
     {
 	"name": "Redis",
 	"license": "BSD",
-	"good_for": ["storage-nosql_database"]
+	"good_for": ["storage-nosql"]
     },
     {
 	"name": "Cassandra",
 	"documentation": "https://cassandra.apache.org/",
 	"license": "Apache 2.0",
-	"good_for": ["storage-nosql_database"]
+	"good_for": ["storage-nosql"]
     },
-
     {
 	"name": "Neo4j",
-	"good_for": ["storage-other_database"]
+	"good_for": ["storage-nosql"]
     },
     {
 	"name": "ElasticSearch",
 	"license": "BSD",
-	"good_for": ["storage-other_database"]
+	"good_for": ["storage-nosql"]
     },
 
     {
@@ -274,11 +273,11 @@
 
     {
 	"name": "SimpleHTTPServer",
-	"good_for": ["web-flat_files"]
+	"good_for": ["web-static"]
     },
     {
 	"name": "Apache",
-	"good_for": ["web-flat_files"]
+	"good_for": ["web-static"]
     },
 
     {
@@ -287,7 +286,7 @@
 	"repository": "https://github.com/django/django",
 	"license": "BSD",
 	"language": "python",
-	"good_for": ["web-server_frameworks"]
+	"good_for": ["web-server"]
     },
     {
 	"name": "Flask",
@@ -295,74 +294,74 @@
 	"repository": "https://github.com/mitsuhiko/flask",
 	"license": "BSD",
 	"language": "python",
-	"good_for": ["web-server_frameworks"]
+	"good_for": ["web-server"]
     },
     {
 	"name": "Ruby on Rails",
 	"documentation": "http://rubyonrails.org/",
 	"language": "ruby",
-	"good_for": ["web-server_frameworks"]
+	"good_for": ["web-server"]
     },
     {
 	"name": "Jekyll",
 	"documentation": "http://jekyllrb.com/",
 	"language": "ruby",
-	"good_for": ["web-server_frameworks"]
+	"good_for": ["web-server"]
     },
     {
 	"name": "celery",
 	"documentation": "http://www.celeryproject.org/",
 	"repository": "https://github.com/celery/celery",
 	"license": "BSD",
-	"good_for": ["web-server_frameworks"]
+	"good_for": ["web-server"]
     },
     {
 	"name": "rq",
 	"documentation": "http://python-rq.org/",
 	"repository": "https://github.com/nvie/rq",
 	"license": "BSD",
-	"good_for": ["web-server_frameworks"]
+	"good_for": ["web-server"]
     },
 
     {
 	"name": "backbone.js",
 	"documentation": "http://backbonejs.org/",
 	"repository": "https://github.com/jashkenas/backbone",
-	"good_for": ["web-client_frameworks"]
+	"good_for": ["web-client"]
     },
     {
 	"name": "ember.js",
 	"documentation": "http://emberjs.com/",
 	"repository": "https://github.com/emberjs/ember.js",
-	"good_for": ["web-client_frameworks"]
+	"good_for": ["web-client"]
     },
     {
 	"name": "handlebars",
 	"documentation": "http://handlebarsjs.com/",
 	"repository": "https://github.com/wycats/handlebars.js/",
-	"good_for": ["web-client_frameworks"]
+	"good_for": ["web-client"]
     },
     {
 	"name": "sass",
 	"documentation": "http://sass-lang.com/",
 	"repository": "https://github.com/sass/sass",
-	"good_for": ["web-client_frameworks"]
+	"good_for": ["web-client"]
     },
     {
 	"name": "Bootstrap",
 	"documentation": "http://getbootstrap.com/",
 	"repository": "https://github.com/twbs/bootstrap/",
-	"good_for": ["web-client_frameworks"]
+	"good_for": ["web-client"]
     },
 
     {
 	"name": "jsfiddle",
-	"good_for": ["web-cloud_frameworks"]
+	"good_for": ["web-cloud"]
     },
     {
 	"name": "bl.ocks.org",
 	"documentation": "http://bl.ocks.org/",
-	"good_for": ["web-cloud_frameworks"]
+	"good_for": ["web-cloud"]
     },
 
     {

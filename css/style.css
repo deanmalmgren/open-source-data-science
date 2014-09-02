@@ -44,19 +44,48 @@ html {
 /************************************************** styling for list headers */
 .category h2 {
     font-size: 75%;
+    color: #333;
+    text-align: center;
 }
 
 /************************************************ styling for lists of tools */
 .details {
-    width: 400px;
-    padding: 15px;
+    width: 450px;
     margin: 10px;
-    height: 500px;
+    height: 600px;
     -webkit-border-radius: 10px;
        -moz-border-radius: 10px;
             border-radius: 10px;
-    /* border: 5px solid white; */
-
+    border: 5px solid #666;
+    color: #333;
+}
+.details h2 {
+    text-align: center;
+    padding: 15px;
+    background-color: #666;
+    color: #eee;
+}
+.details .tool {
+    margin-top: 0.5em;
+    padding-left: 15px
+}
+.details i.fa {
+    opacity: 0;
+}
+.details a {
+    color: #333;
+    text-decoration: none;
+}
+.details a:hover {
+    color: #377eb8;
+}
+.details a i.fa {
+    opacity: 1;
+}
+.details span {
+    padding-left: 0.5em;
+}
+.details {
     opacity: 0.3;
     background-color: rgba(255, 255, 255, 0);
 

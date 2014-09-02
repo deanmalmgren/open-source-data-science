@@ -12,6 +12,7 @@
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/impress.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
 
     <!-- TODO: set up favicons -->
     <link rel="shortcut icon" href="favicon.png" />
@@ -102,9 +103,8 @@
     </div>
 
     <div class="step slide details" id="storage-flat_files"></div>
-    <div class="step slide details" id="storage-nosql_database"></div>
-    <div class="step slide details" id="storage-relational_database"></div>
-    <div class="step slide details" id="storage-other_database"></div>
+    <div class="step slide details" id="storage-nosql"></div>
+    <div class="step slide details" id="storage-relational"></div>
     
 
     <!--
@@ -122,14 +122,14 @@
     <!--
       ----------------------------------------------------------- WEB FRAMEWORKS
       -->
-    <div id="web" class="step slide category" data-x="-350" data-y="0">
-      <h2>web</h2>
+    <div id="web" class="step slide category" data-x="-350" data-y="15">
+      <h2>web frameworks</h2>
     </div>
 
-    <div class="step slide details" id="web-flat_files"></div>
-    <div class="step slide details" id="web-server_frameworks"></div>
-    <div class="step slide details" id="web-client_frameworks"></div>
-    <div class="step slide details" id="web-cloud_frameworks"></div>
+    <div class="step slide details" id="web-static"></div>
+    <div class="step slide details" id="web-server"></div>
+    <div class="step slide details" id="web-client"></div>
+    <div class="step slide details" id="web-cloud"></div>
 
     <!--
       ------------------------------------------------------------ VISUALIZATION
@@ -166,11 +166,17 @@
     
   <script id="detail-template" type="text/x-handlebars-template">
     <h2>{{detail_title}}</h2>
-    <ul>
-      {{#each packages}}
-      <li><a href="{{documentation}}">{{name}}</a> <span>({{license}})</span></li>
-      {{/each}}
-    </ul>
+    {{#each packages}}
+    <div class="tool">
+      {{#if repository}}<a href="{{repository}}" alt="{{name}} repository" target="_blank">{{/if}}
+	<i class="fa fa-code-fork"></i>
+      {{#if repository}}</a>{{/if}}
+      {{#if documentation}}<a href="{{documentation}}" alt="{{name}} documentation" target="_blank">{{/if}}
+	<i class="fa fa-file-text-o"></i>
+      {{#if documentation}}</a>{{/if}}
+      <span>{{name}}</span>
+    </div>
+    {{/each}}
   </script>
     
   <script src="js/presentation.js"></script>

@@ -424,18 +424,10 @@ th {
   padding: 0;
 }
 
-/* Lists
-   ========================================================================== */
-
-ul {
-    padding-left: 20px;
-}
-
-
 /* Headings
    ========================================================================== */
 
-h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4, h5, h6 {
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
     -webkit-margin-start: 0em;
