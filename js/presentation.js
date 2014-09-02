@@ -37,7 +37,7 @@ function render_detail_content(json) {
     var template = Handlebars.compile(template_source);
 
     // get all of the subcategories for each tool and order them
-    var categories = get_all_categories(json);
+    var categories = get_all_categories();
 
     // for each details slide, add the content using the compiled template
     $(".details").each(function (i, element) {
@@ -76,38 +76,20 @@ function render_detail_content(json) {
 }
 
 
-function get_all_categories(json) {
+function get_all_categories() {
     var categories = {};
-    json.forEach(function (tool) {
-	tool.good_for.forEach(function (good_for) {
-	    var x = good_for.split('-');
-	    if (!categories.hasOwnProperty(x[0])) {
-		categories[x[0]] = [];
-	    }
-	    categories[x[0]].push(x[1]);
-	});
+    $(".details").each(function (i, element) {
+	var element_id = $(element).attr('id');
+	var x = element_id.split('-');
+	if (!categories.hasOwnProperty(x[0])) {
+	    categories[x[0]] = [];
+	}
+	categories[x[0]].push(x[1]);
     });
-
-    for (var c in categories) {
-	categories[c] = unique(categories[c]);
-	categories[c].sort()
-    }
     return categories;
 }
 
 
 function get_detail_title(element_id) {
     return element_id.split('-')[1].replace('_', ' ');
-}
-
-// http://stackoverflow.com/a/11911532/564709
-function unique(arr) {
-    var u = {}, a = [];
-    for(var i = 0, l = arr.length; i < l; ++i){
-        if(!u.hasOwnProperty(arr[i])) {
-            a.push(arr[i]);
-            u[arr[i]] = 1;
-        }
-    }
-    return a;
 }
