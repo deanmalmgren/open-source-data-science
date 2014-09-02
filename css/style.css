@@ -40,6 +40,7 @@ h2 {
 /************************************************ styling for lists of tools */
 .details {
     width: 200px;
+    padding: 15px;
     height: 400px;
     opacity: 0.3;
 
