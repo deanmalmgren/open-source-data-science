@@ -430,3 +430,22 @@ th {
 ul {
     padding-left: 20px;
 }
+
+
+/* Headings
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0em;
+    -webkit-margin-end: 0em;
+       -moz-margin-before: 0em;
+       -moz-margin-after: 0em;
+       -moz-margin-start: 0em;
+       -moz-margin-end: 0em;
+            margin-before: 0em;
+            margin-after: 0em;
+            margin-start: 0em;
+            margin-end: 0em;
+}
