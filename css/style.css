@@ -1,10 +1,19 @@
 /* this will be used to track my own stylez */
+
+html {
+    background-color: black;
+}
+
 h2 {
     text-align: center;
 }
 
+
 /* by default, the two big caveats are not visible */
 #toolz, #open-source {
+    z-index: -1;
+    color: white;
+
     opacity: 0;
 
     -webkit-transition: opacity 1s;
