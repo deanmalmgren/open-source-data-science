@@ -37,6 +37,12 @@
 	"documentation": "http://pythonhosted.org/feedparser/",
 	"good_for": ["acquisition-api_wrappers"]
     },
+    {
+	"name": "Py-StackExchange",
+	"repository": "https://github.com/lucjon/Py-StackExchange",
+	"license": "BSD",
+	"good_for": ["acquisition-api_wrappers"]
+    },
 
     {
 	"name": "MySQLdb",
