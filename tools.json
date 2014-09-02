@@ -264,7 +264,143 @@
 	"documentation": "https://mahout.apache.org/",
 	"license": "Apache 2.0",
 	"good_for": ["analysis-hadoop"]
+    },
+
+    {
+	"name": "SimpleHTTPServer",
+	"good_for": ["web-flat_files"]
+    },
+    {
+	"name": "Apache",
+	"good_for": ["web-flat_files"]
+    },
+
+    {
+	"name": "Django",
+	"documentation": "https://www.djangoproject.com/",
+	"repository": "https://github.com/django/django",
+	"license": "BSD",
+	"language": "python",
+	"good_for": ["web-server_frameworks"]
+    },
+    {
+	"name": "Flask",
+	"documentation": "http://flask.pocoo.org/",
+	"repository": "https://github.com/mitsuhiko/flask",
+	"license": "BSD",
+	"language": "python",
+	"good_for": ["web-server_frameworks"]
+    },
+    {
+	"name": "Ruby on Rails",
+	"documentation": "http://rubyonrails.org/",
+	"language": "ruby",
+	"good_for": ["web-server_frameworks"]
+    },
+    {
+	"name": "Jekyll",
+	"documentation": "http://jekyllrb.com/",
+	"language": "ruby",
+	"good_for": ["web-server_frameworks"]
+    },
+
+    {
+	"name": "backbone.js",
+	"documentation": "http://backbonejs.org/",
+	"repository": "https://github.com/jashkenas/backbone",
+	"good_for": ["web-client_frameworks"]
+    },
+    {
+	"name": "ember.js",
+	"documentation": "http://emberjs.com/",
+	"repository": "https://github.com/emberjs/ember.js",
+	"good_for": ["web-client_frameworks"]
+    },
+    {
+	"name": "handlebars",
+	"documentation": "http://handlebarsjs.com/",
+	"repository": "https://github.com/wycats/handlebars.js/",
+	"good_for": ["web-client_frameworks"]
+    },
+    {
+	"name": "sass",
+	"documentation": "http://sass-lang.com/",
+	"repository": "https://github.com/sass/sass",
+	"good_for": ["web-client_frameworks"]
+    },
+    {
+	"name": "Bootstrap",
+	"documentation": "http://getbootstrap.com/",
+	"repository": "https://github.com/twbs/bootstrap/",
+	"good_for": ["web-client_frameworks"]
+    },
+
+    {
+	"name": "jsfiddle",
+	"good_for": ["web-cloud_frameworks"]
+    },
+    {
+	"name": "bl.ocks.org",
+	"documentation": "http://bl.ocks.org/",
+	"good_for": ["web-cloud_frameworks"]
+    },
+
+    {
+	"name": "ggplot",
+	"good_for": ["visualization-server"]
+    },
+    {
+	"name": "matplotlib",
+	"good_for": ["visualization-server"]
+    },
+    {
+	"name": "processing",
+	"documentation": "http://processing.org/",
+	"good_for": ["visualization-server"]
+    },
+    {
+	"name": "xmgrace",
+	"good_for": ["visualization-server"]
+    },
+    {
+	"name": "pygrace",
+	"good_for": ["visualization-server"]
+    },
+
+    {
+	"name": "d3",
+	"good_for": ["visualization-client"]
+    },
+    {
+	"name": "hicharts",
+	"documentation": "http://www.highcharts.com/",
+	"repository": "https://github.com/highslide-software/highcharts.com/",
+	"good_for": ["visualization-client"]
+    },
+    {
+	"name": "Leaflet",
+	"documentation": "http://leafletjs.com/",
+	"repository": "https://github.com/Leaflet/Leaflet/",
+	"good_for": ["visualization-client"]
+    },
+    {
+	"name": "Open Street Map",
+	"documentation": "http://www.openstreetmap.org/",
+	"good_for": ["visualization-client"]
+    },
+    {
+	"name": "raphael.js",
+	"documentation": "http://raphaeljs.com/",
+	"license": "MIT",
+	"repository": "https://github.com/DmitryBaranovskiy/raphael/",
+	"good_for": ["visualization-client"]
+    },
+    {
+	"name": "dataTables",
+	"documentation": "http://datatables.net/",
+	"license": "MIT",
+	"repository": "https://github.com/DataTables/DataTables",
+	"good_for": ["visualization-client"]
     }
 
-    
 ]
