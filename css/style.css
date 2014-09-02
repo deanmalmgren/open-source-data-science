@@ -86,6 +86,16 @@ html {
     padding-left: 0.5em;
 }
 .details {
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0);
+
+    -webkit-transition: opacity 1s, background-color 1s;
+       -moz-transition: opacity 1s, background-color 1s;
+        -ms-transition: opacity 1s, background-color 1s;
+         -o-transition: opacity 1s, background-color 1s;
+            transition: opacity 1s, background-color 1s;
+}
+body[class*="acquisition"] .details[id^="acquisition"] {
     opacity: 0.3;
     background-color: rgba(255, 255, 255, 0);
 
@@ -95,7 +105,112 @@ html {
          -o-transition: opacity 1s, background-color 1s;
             transition: opacity 1s, background-color 1s;
 }
-.details.active {
+body[class*="acquisition"] .details[id^="acquisition"].active {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    -webkit-transition: opacity 1s, background-color 1s;
+       -moz-transition: opacity 1s, background-color 1s;
+        -ms-transition: opacity 1s, background-color 1s;
+         -o-transition: opacity 1s, background-color 1s;
+            transition: opacity 1s, background-color 1s;
+}
+
+body[class*="web"] .details[id^="web"] {
+    opacity: 0.3;
+    background-color: rgba(255, 255, 255, 0);
+
+    -webkit-transition: opacity 1s, background-color 1s;
+       -moz-transition: opacity 1s, background-color 1s;
+        -ms-transition: opacity 1s, background-color 1s;
+         -o-transition: opacity 1s, background-color 1s;
+            transition: opacity 1s, background-color 1s;
+}
+body[class*="web"] .details[id^="web"].active {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    -webkit-transition: opacity 1s, background-color 1s;
+       -moz-transition: opacity 1s, background-color 1s;
+        -ms-transition: opacity 1s, background-color 1s;
+         -o-transition: opacity 1s, background-color 1s;
+            transition: opacity 1s, background-color 1s;
+}
+
+body[class*="storage"] .details[id^="storage"] {
+    opacity: 0.3;
+    background-color: rgba(255, 255, 255, 0);
+
+    -webkit-transition: opacity 1s, background-color 1s;
+       -moz-transition: opacity 1s, background-color 1s;
+        -ms-transition: opacity 1s, background-color 1s;
+         -o-transition: opacity 1s, background-color 1s;
+            transition: opacity 1s, background-color 1s;
+}
+body[class*="storage"] .details[id^="storage"].active {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    -webkit-transition: opacity 1s, background-color 1s;
+       -moz-transition: opacity 1s, background-color 1s;
+        -ms-transition: opacity 1s, background-color 1s;
+         -o-transition: opacity 1s, background-color 1s;
+            transition: opacity 1s, background-color 1s;
+}
+
+body[class*="analysis"] .details[id^="analysis"] {
+    opacity: 0.3;
+    background-color: rgba(255, 255, 255, 0);
+
+    -webkit-transition: opacity 1s, background-color 1s;
+       -moz-transition: opacity 1s, background-color 1s;
+        -ms-transition: opacity 1s, background-color 1s;
+         -o-transition: opacity 1s, background-color 1s;
+            transition: opacity 1s, background-color 1s;
+}
+body[class*="analysis"] .details[id^="analysis"].active {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    -webkit-transition: opacity 1s, background-color 1s;
+       -moz-transition: opacity 1s, background-color 1s;
+        -ms-transition: opacity 1s, background-color 1s;
+         -o-transition: opacity 1s, background-color 1s;
+            transition: opacity 1s, background-color 1s;
+}
+
+body[class*="visualization"] .details[id^="visualization"] {
+    opacity: 0.3;
+    background-color: rgba(255, 255, 255, 0);
+
+    -webkit-transition: opacity 1s, background-color 1s;
+       -moz-transition: opacity 1s, background-color 1s;
+        -ms-transition: opacity 1s, background-color 1s;
+         -o-transition: opacity 1s, background-color 1s;
+            transition: opacity 1s, background-color 1s;
+}
+body[class*="visualization"] .details[id^="visualization"].active {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    -webkit-transition: opacity 1s, background-color 1s;
+       -moz-transition: opacity 1s, background-color 1s;
+        -ms-transition: opacity 1s, background-color 1s;
+         -o-transition: opacity 1s, background-color 1s;
+            transition: opacity 1s, background-color 1s;
+}
+
+body[class*="organization"] .details[id^="organization"] {
+    opacity: 0.3;
+    background-color: rgba(255, 255, 255, 0);
+
+    -webkit-transition: opacity 1s, background-color 1s;
+       -moz-transition: opacity 1s, background-color 1s;
+        -ms-transition: opacity 1s, background-color 1s;
+         -o-transition: opacity 1s, background-color 1s;
+            transition: opacity 1s, background-color 1s;
+}
+body[class*="organization"] .details[id^="organization"].active {
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.8);
 
