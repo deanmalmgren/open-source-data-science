@@ -2,6 +2,7 @@
 html {
     background-color: black;
     font-size: 200%;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* by default, the two big caveats are not visible */
