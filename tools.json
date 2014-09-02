@@ -153,6 +153,117 @@
 	"name": "ElasticSearch",
 	"license": "BSD",
 	"good_for": ["storage-other_database"]
+    },
+
+    {
+	"name": "sort",
+	"good_for": ["analysis-shell"]
+    },
+    {
+	"name": "uniq",
+	"good_for": ["analysis-shell"]
+    },
+    {
+	"name": "awk",
+	"good_for": ["analysis-shell"]
+    },
+    {
+	"name": "sed",
+	"good_for": ["analysis-shell"]
+    },
+    {
+	"name": "grep",
+	"good_for": ["analysis-shell"]
+    },
+    {
+	"name": "cut",
+	"good_for": ["analysis-shell"]
+    },
+    {
+	"name": "curl",
+	"good_for": ["analysis-shell"]
+    },
+    {
+	"name": "tr",
+	"good_for": ["analysis-shell"]
+    },
+    {
+	"name": "xargs",
+	"good_for": ["analysis-shell"]
+    },
+
+    {
+	"name": "scipy",
+	"documentation": "http://www.scipy.org/",
+	"repository": "https://github.com/scipy/scipy",
+	"license": "BSD",
+	"good_for": ["analysis-python"]
+    },
+    {
+	"name": "pandas",
+	"documentation": "http://pandas.pydata.org/",
+	"repository": "https://github.com/pydata/pandas",
+	"license": "BSD",
+	"good_for": ["analysis-python"]
+    },
+    {
+	"name": "scikit-learn",
+	"documentation": "http://scikit-learn.org/",
+	"repository": "https://github.com/scikit-learn/scikit-learn",
+	"license": "BSD",
+	"good_for": ["analysis-python"]
+    },
+    {
+	"name": "nltk",
+	"documentation": "http://www.nltk.org/",
+	"repository": "https://github.com/nltk/nltk",
+	"license": "Apache 2.0",
+	"good_for": ["analysis-python"]
+    },
+    {
+	"name": "textblob",
+	"documentation": "http://textblob.readthedocs.org/",
+	"repository": "https://github.com/sloria/textblob",
+	"license": "MIT",
+	"good_for": ["analysis-python"]
+    },
+    {
+	"name": "biopython",
+	"documentation": "http://biopython.org/wiki/Main_Page",
+	"repository": "https://github.com/biopython/biopython",
+	"good_for": ["analysis-python"]
+    },
+    {
+	"name": "Shapely",
+	"repository": "https://github.com/Toblerity/Shapely",
+	"license": "BSD",
+	"good_for": ["analysis-python"]
+    },
+    {
+	"name": "Pillow",
+	"documentation": "https://pillow.readthedocs.org/en/latest/",
+	"repository": "https://github.com/python-pillow/Pillow",
+	"license": "MIT",
+	"good_for": ["analysis-python"]
+    },
+
+    {
+	"name": "dplyr",
+	"repository": "https://github.com/hadley/dplyr",
+	"license": "MIT",
+	"good_for": ["analysis-r"]
+    },
+
+    {
+	"name": "Hadoop streaming",
+	"documentation": "http://hadoop.apache.org/docs/r1.2.1/streaming.html",
+	"good_for": ["analysis-hadoop"]
+    },
+    {
+	"name": "Mahout",
+	"documentation": "https://mahout.apache.org/",
+	"license": "Apache 2.0",
+	"good_for": ["analysis-hadoop"]
     }
 
     
