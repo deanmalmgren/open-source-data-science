@@ -1,14 +1,31 @@
 /* set global styles on the entire presentation */
 html {
-    background-color: black;
+    background-color: #222;
     font-size: 200%;
     font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+}
+
+html:before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background: url('../img/space.png') 0 0 repeat;
+    -webkit-transform: rotate(-30deg);
+       -moz-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+         -o-transform: rotate(-30deg);
+            transform: rotate(-30deg);
 }
 
 /* by default, the two big caveats are not visible */
 #toolz, #open-source {
     z-index: -1;
-    color: white;
+    color: #eee;
 
     opacity: 0;
 
@@ -19,6 +36,16 @@ html {
             transition: opacity 1s;
 
     width: 500px;
+}
+#toolz p, #open-source p {
+    margin-bottom: 1em;
+}
+#toolz a, #open-source a {
+    color: #377eb8;
+    text-decoration: none;
+}
+#toolz a:hover, #open-source a:hover {
+    text-decoration: underline;
 }
 
 /* make the text on these elements available */
@@ -72,6 +99,8 @@ html {
 }
 .details i.fa {
     opacity: 0;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .details a {
     color: #333;
