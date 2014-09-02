@@ -1,13 +1,8 @@
-/* this will be used to track my own stylez */
-
+/* set global styles on the entire presentation */
 html {
     background-color: black;
+    font-size: 200%;
 }
-
-h2 {
-    text-align: center;
-}
-
 
 /* by default, the two big caveats are not visible */
 #toolz, #open-source {
@@ -26,7 +21,7 @@ h2 {
 }
 
 /* make the text on these elements available */
-.impress-on-toolz #toolz {
+#toolz.active {
     opacity: 1;
 
     -webkit-transition: opacity 1s;
@@ -36,7 +31,7 @@ h2 {
             transition: opacity 1s;
 }
 
-.impress-on-open-source #open-source {
+#open-source.active {
     opacity: 1;
 
     -webkit-transition: opacity 1s;
@@ -44,32 +39,40 @@ h2 {
         -ms-transition: opacity 1s;
          -o-transition: opacity 1s;
             transition: opacity 1s;
+}
+
+/************************************************** styling for list headers */
+.category h2 {
+    font-size: 75%;
 }
 
 /************************************************ styling for lists of tools */
 .details {
-    width: 200px;
+    width: 400px;
     padding: 15px;
-    height: 400px;
+    margin: 10px;
+    height: 500px;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    /* border: 5px solid white; */
+
     opacity: 0.3;
+    background-color: rgba(255, 255, 255, 0);
 
-    /* border: 1px solid black; */
-
-    -webkit-transition: opacity 1s;
-       -moz-transition: opacity 1s;
-        -ms-transition: opacity 1s;
-         -o-transition: opacity 1s;
-            transition: opacity 1s;
+    -webkit-transition: opacity 1s, background-color 1s;
+       -moz-transition: opacity 1s, background-color 1s;
+        -ms-transition: opacity 1s, background-color 1s;
+         -o-transition: opacity 1s, background-color 1s;
+            transition: opacity 1s, background-color 1s;
 }
 .details.active {
     opacity: 1;
+    background-color: rgba(255, 255, 255, 0.8);
 
-    -webkit-transition: opacity 1s;
-       -moz-transition: opacity 1s;
-        -ms-transition: opacity 1s;
-         -o-transition: opacity 1s;
-            transition: opacity 1s;
-}
-.details h2 {
-    text-align: left;
+    -webkit-transition: opacity 1s, background-color 1s;
+       -moz-transition: opacity 1s, background-color 1s;
+        -ms-transition: opacity 1s, background-color 1s;
+         -o-transition: opacity 1s, background-color 1s;
+            transition: opacity 1s, background-color 1s;
 }

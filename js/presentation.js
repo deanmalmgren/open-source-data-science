@@ -63,7 +63,8 @@ function render_detail_content(json) {
 	var css_width = $(element).outerWidth(true);
 	var category_data = $("#" + category).data();
 	var scale = 0.25;
-	var y = category_data.y + 70;  // TODO: NOT HARDCODED? RELATED TO HEIGHT
+	console.log(category, $(element).outerHeight(true));
+	var y = category_data.y + 0.5*($("#" + category + " h2").outerHeight(true) + scale*$(element).outerHeight(true));
 	var x = category_data.x;
 	x += css_width*scale*(subcategory_index - (categories[category].length-1)/2);
 	$(element).attr({
