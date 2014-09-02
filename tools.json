@@ -1,17 +1,17 @@
 [
     {
 	"name": "requests",
-	"good_for": ["acquisition-screen_scraping"],
 	"language": "python",
 	"repository": "https://github.com/kennethreitz/requests",
-	"license": "Apache 2.0"
+	"license": "Apache 2.0",
+	"good_for": ["acquisition-screen_scraping"]
     },
     {
 	"name": "beautifulsoup4",
-	"good_for": ["acquisition-screen_scraping"],
 	"language": "python",
 	"documentation": "http://www.crummy.com/software/BeautifulSoup/bs4/doc/",
-	"license": "MIT"
+	"license": "MIT",
+	"good_for": ["acquisition-screen_scraping"]
     },
     {
 	"name": "Scrapy",
@@ -24,18 +24,18 @@
 
     {
 	"name": "tweepy",
-	"good_for": ["acquisition-api_wrappers"],
-	"documentation": "http://www.tweepy.org/"
+	"documentation": "http://www.tweepy.org/",
+	"good_for": ["acquisition-api_wrappers"]
     },
     {
 	"name": "facebook-sdk",
-	"good_for": ["acquisition-api_wrappers"],
-	"documentation": "http://www.pythonforfacebook.com/"
+	"documentation": "http://www.pythonforfacebook.com/",
+	"good_for": ["acquisition-api_wrappers"]
     },
     {
 	"name": "feedparser",
-	"good_for": ["acquisition-api_wrappers"],
-	"documentation": "http://pythonhosted.org/feedparser/"
+	"documentation": "http://pythonhosted.org/feedparser/",
+	"good_for": ["acquisition-api_wrappers"]
     },
 
     {
@@ -52,8 +52,8 @@
     },
     {
 	"name": "rawes",
-	"good_for": ["acquisition-databases"],
-	"repository": "https://github.com/humangeo/rawes"
+	"repository": "https://github.com/humangeo/rawes",
+	"good_for": ["acquisition-databases"]
     },
 
     {
@@ -303,6 +303,20 @@
 	"language": "ruby",
 	"good_for": ["web-server_frameworks"]
     },
+    {
+	"name": "celery",
+	"documentation": "http://www.celeryproject.org/",
+	"repository": "https://github.com/celery/celery",
+	"license": "BSD",
+	"good_for": ["web-server_frameworks"]
+    },
+    {
+	"name": "rq",
+	"documentation": "http://python-rq.org/",
+	"repository": "https://github.com/nvie/rq",
+	"license": "BSD",
+	"good_for": ["web-server_frameworks"]
+    },
 
     {
 	"name": "backbone.js",
@@ -401,6 +415,63 @@
 	"license": "MIT",
 	"repository": "https://github.com/DataTables/DataTables",
 	"good_for": ["visualization-client"]
+    },
+
+
+    {
+	"name": "mercurial",
+	"good_for": ["organization-version_control"]
+    },
+    {
+	"name": "git",
+	"good_for": ["organization-version_control"]
+    },
+
+    {
+	"name": "shell script",
+	"good_for": ["organization-workflow", "organization-provisioning"]
+    },
+    {
+	"name": "make",
+	"good_for": ["organization-workflow"]
+    },
+    {
+	"name": "drake",
+	"good_for": ["organization-workflow"]
+    },
+    {
+	"name": "flo",
+	"good_for": ["organization-workflow"]
+    },
+
+    {
+	"name": "fabtools",
+	"good_for": ["organization-provisioning"]
+    },
+    {
+	"name": "fabric",
+	"good_for": ["organization-provisioning"]
+    },
+    {
+	"name": "puppet",
+	"good_for": ["organization-provisioning"]
+    },
+    {
+	"name": "chef",
+	"good_for": ["organization-provisioning"]
+    },
+
+    {
+	"name": "Vagrant",
+	"good_for": ["organization-environment"]
+    },
+    {
+	"name": "Docker",
+	"good_for": ["organization-environment"]
+    },
+    {
+	"name": "Virtualbox",
+	"good_for": ["organization-environment"]
     }
 
 ]
