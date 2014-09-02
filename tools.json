@@ -21,6 +21,7 @@
 	"name": "Selenium",
 	"good_for": ["acquisition-screen_scraping"]
     },
+
     {
 	"name": "tweepy",
 	"good_for": ["acquisition-api_wrappers"],
@@ -36,6 +37,7 @@
 	"good_for": ["acquisition-api_wrappers"],
 	"documentation": "http://pythonhosted.org/feedparser/"
     },
+
     {
 	"name": "MySQLdb",
 	"good_for": ["acquisition-databases"]
@@ -53,6 +55,7 @@
 	"good_for": ["acquisition-databases"],
 	"repository": "https://github.com/humangeo/rawes"
     },
+
     {
 	"name": "Tika",
 	"good_for": ["acquisition-flat_files"]
@@ -68,5 +71,89 @@
     {
 	"name": "PIL",
 	"good_for": ["acquisition-flat_files"]
+    },
+
+    {
+	"name": "json format",
+	"good_for": ["storage-flat_files"]
+    },
+    {
+	"name": "csv format",
+	"good_for": ["storage-flat_files"]
+    },
+    {
+	"name": "xml format",
+	"good_for": ["storage-flat_files"]
+    },
+    {
+	"name": "html format",
+	"good_for": ["storage-flat_files"]
+    },
+    {
+	"name": "graphml format",
+	"good_for": ["storage-flat_files"]
+    },
+    {
+	"name": "yaml format",
+	"good_for": ["storage-flat_files"]
+    },
+    {
+	"name": "hdfs",
+	"good_for": ["storage-flat_files"]
+    },
+
+    {
+	"name": "MySQL",
+	"good_for": ["storage-relational_database"]
+    },
+    {
+	"name": "Postgres",
+	"good_for": ["storage-relational_database"]
+    },
+    {
+	"name": "Fusion tables",
+	"good_for": ["storage-relational_database"]
+    },
+    {
+	"name": "Hive",
+	"documentation": "https://hive.apache.org/",
+	"license": "Apache 2.0",
+	"good_for": ["storage-relational_database"]
+    },
+    {
+	"name": "HBase",
+	"documentation": "https://hbase.apache.org/",
+	"license": "Apache 2.0",
+	"good_for": ["storage-relational_database"]
+    },
+
+    {
+	"name": "MongoDB",
+	"license": "AGPL 3.0",
+	"documentation": "http://www.mongodb.org/",
+	"good_for": ["storage-nosql_database"]
+    },
+    {
+	"name": "Redis",
+	"license": "BSD",
+	"good_for": ["storage-nosql_database"]
+    },
+    {
+	"name": "Cassandra",
+	"documentation": "https://cassandra.apache.org/",
+	"license": "Apache 2.0",
+	"good_for": ["storage-nosql_database"]
+    },
+
+    {
+	"name": "Neo4j",
+	"good_for": ["storage-other_database"]
+    },
+    {
+	"name": "ElasticSearch",
+	"license": "BSD",
+	"good_for": ["storage-other_database"]
     }
+
+    
 ]
