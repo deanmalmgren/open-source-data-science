@@ -9,7 +9,7 @@ on how to solve a problem. As the
 > I suppose it is tempting, if the only tool you have is a hammer, to
 > treat everything as if it were a nail.
 >
-> - Abraham Maslow, 1966
+> -- Abraham Maslow, 1966
 
 But the fact of the matter is that many people are not aware of the
 vast array of open source tools that they have at their disposal when
@@ -21,7 +21,7 @@ intent to have the community propose other tools or other forms of
 organization that are useful.
 
 The idea for this project originally came from a conversation I had
-with @ahwolf and how difficult it is for data science n00bs to
+with a coworker and how difficult it is for data science n00bs to
 understand how all these tools come together. This project is an
 attempt to address that need.
 
