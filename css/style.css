@@ -24,6 +24,12 @@ html:before {
 
 
 /*************************************************************** title slide */
+#title {
+    position: relative;
+}
+#title img {
+    height: 1000px;
+}
 #title #credits {
     position: absolute;
     bottom: 40px;
@@ -46,6 +52,16 @@ html:before {
 }
 .impress-on-title #title #credits {
     display: block;
+}
+#ocean {
+    position: absolute;
+    top: -500px;
+    left: -500px;
+    z-index: -1;
+    width: 2500px;
+    height: 2000px;
+    background-image: url('../img/ocean.png');
+    background-size: 400px 100px;
 }
 
 /************************************************************* caveat slides */
