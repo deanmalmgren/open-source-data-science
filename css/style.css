@@ -32,13 +32,13 @@ html:before {
 }
 #title #credits {
     position: absolute;
-    bottom: 40px;
+    bottom: 150px;
     left: 20px;
     color: #333;
     display: none;
 }
 #title .author {
-    font-size: 80%;
+    font-size: 70%;
 }
 #title #credits a {
     color: #333;
