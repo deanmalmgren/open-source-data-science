@@ -27,9 +27,6 @@ html:before {
 #title {
     position: relative;
 }
-#title img {
-    height: 1000px;
-}
 #title #credits {
     position: absolute;
     bottom: 150px;
@@ -67,8 +64,7 @@ html:before {
     z-index: -1;
     width: 2500px;
     height: 2000px;
-    background-image: url('../img/ocean.png');
-    background-size: 400px 100px;
+    background-image: url('../img/ocean-small.png');
 }
 
 /************************************************************* caveat slides */
