@@ -204,12 +204,12 @@
     <h2>{{detail_title}}</h2>
     {{#each packages}}
     <div class="tool">
-      {{#if repository}}<a href="{{repository}}" alt="{{name}} repository" target="_blank">{{/if}}
+      {{#if code}}<a href="{{code}}" alt="{{name}} code" target="_blank">{{/if}}
 	<i class="fa fa-code-fork"></i>
-      {{#if repository}}</a>{{/if}}
-      {{#if documentation}}<a href="{{documentation}}" alt="{{name}} documentation" target="_blank">{{/if}}
+      {{#if code}}</a>{{/if}}
+      {{#if docs}}<a href="{{docs}}" alt="{{name}} documentation" target="_blank">{{/if}}
 	<i class="fa fa-file-text-o"></i>
-      {{#if documentation}}</a>{{/if}}
+      {{#if docs}}</a>{{/if}}
       <span>{{name}}</span>
     </div>
     {{/each}}

@@ -2,80 +2,98 @@
     {
 	"name": "requests",
 	"language": "python",
-	"repository": "https://github.com/kennethreitz/requests",
+	"code": "https://github.com/kennethreitz/requests",
+	"docs": "http://docs.python-requests.org/",
 	"license": "Apache 2.0",
 	"good_for": ["acquisition-screen_scraping"]
     },
     {
 	"name": "beautifulsoup4",
 	"language": "python",
-	"documentation": "http://www.crummy.com/software/BeautifulSoup/bs4/doc/",
+	"code": "https://code.launchpad.net/beautifulsoup",
+	"docs": "http://www.crummy.com/software/BeautifulSoup/bs4/doc/",
 	"license": "MIT",
 	"good_for": ["acquisition-screen_scraping"]
     },
     {
 	"name": "Scrapy",
+	"code": "https://github.com/scrapy/scrapy",
+	"docs": "http://scrapy.org/",
+	"license": "BSD",
 	"good_for": ["acquisition-screen_scraping"]
     },
     {
 	"name": "Selenium",
+	"docs": "http://www.seleniumhq.org/",
 	"good_for": ["acquisition-screen_scraping"]
     },
 
     {
 	"name": "tweepy",
-	"documentation": "http://www.tweepy.org/",
+	"docs": "http://www.tweepy.org/",
+	"code": "https://github.com/tweepy/tweepy/",
 	"good_for": ["acquisition-api_wrappers"]
     },
     {
 	"name": "facebook-sdk",
-	"documentation": "http://www.pythonforfacebook.com/",
+	"docs": "http://www.pythonforfacebook.com/",
+	"code": "https://github.com/pythonforfacebook/facebook-sdk",
 	"good_for": ["acquisition-api_wrappers"]
     },
     {
 	"name": "feedparser",
-	"documentation": "http://pythonhosted.org/feedparser/",
+	"docs": "http://pythonhosted.org/feedparser/",
+	"code": "https://code.google.com/p/feedparser/",
 	"good_for": ["acquisition-api_wrappers"]
     },
     {
 	"name": "Py-StackExchange",
-	"repository": "https://github.com/lucjon/Py-StackExchange",
+	"code": "https://github.com/lucjon/Py-StackExchange",
 	"license": "BSD",
 	"good_for": ["acquisition-api_wrappers"]
     },
 
     {
 	"name": "MySQLdb",
+	"docs": "http://mysql-python.sourceforge.net/MySQLdb-1.2.2/",
+	"code": "https://github.com/farcepest/MySQLdb1",
 	"good_for": ["acquisition-databases"]
     },
     {
 	"name": "pymongo",
+	"code": "https://github.com/mongodb/mongo-python-driver",
+	"docs": "http://api.mongodb.org/python/current/",
 	"good_for": ["acquisition-databases"]
     },
     {
 	"name": "psycopg",
+	"code": "https://github.com/psycopg/psycopg2/",
+	"docs": "http://initd.org/psycopg/",
 	"good_for": ["acquisition-databases"]
     },
     {
 	"name": "rawes",
-	"repository": "https://github.com/humangeo/rawes",
+	"code": "https://github.com/humangeo/rawes",
 	"good_for": ["acquisition-databases"]
     },
 
     {
 	"name": "Tika",
+	"docs": "http://tika.apache.org/",
+	"code": "https://github.com/apache/tika/",
 	"good_for": ["acquisition-flat_files"]
     },
     {
 	"name": "textract",
+	"code": "https://github.com/deanmalmgren/textract",
+	"docs": "http://textract.readthedocs.org/",
 	"good_for": ["acquisition-flat_files"]
     },
     {
 	"name": "xlrd",
-	"good_for": ["acquisition-flat_files"]
-    },
-    {
-	"name": "PIL",
+	"docs": "http://www.python-excel.org/",
+	"code": "https://github.com/python-excel/xlrd",
+	"license": "BSD",
 	"good_for": ["acquisition-flat_files"]
     },
 
@@ -110,25 +128,28 @@
 
     {
 	"name": "MySQL",
+	"docs": "http://www.mysql.com/",
 	"good_for": ["storage-relational"]
     },
     {
 	"name": "Postgres",
+	"docs": "http://www.postgresql.org/",
 	"good_for": ["storage-relational"]
     },
     {
 	"name": "Fusion tables",
+	"docs": "https://support.google.com/fusiontables/answer/2571232",
 	"good_for": ["storage-relational"]
     },
     {
 	"name": "Hive",
-	"documentation": "https://hive.apache.org/",
+	"docs": "https://hive.apache.org/",
 	"license": "Apache 2.0",
 	"good_for": ["storage-relational"]
     },
     {
 	"name": "HBase",
-	"documentation": "https://hbase.apache.org/",
+	"docs": "https://hbase.apache.org/",
 	"license": "Apache 2.0",
 	"good_for": ["storage-relational"]
     },
@@ -136,299 +157,337 @@
     {
 	"name": "MongoDB",
 	"license": "AGPL 3.0",
-	"documentation": "http://www.mongodb.org/",
+	"docs": "http://www.mongodb.org/",
 	"good_for": ["storage-nosql"]
     },
     {
 	"name": "Redis",
 	"license": "BSD",
+	"docs": "http://redis.io/",
+	"code": "https://github.com/antirez/redis",
 	"good_for": ["storage-nosql"]
     },
     {
 	"name": "Cassandra",
-	"documentation": "https://cassandra.apache.org/",
+	"docs": "https://cassandra.apache.org/",
 	"license": "Apache 2.0",
 	"good_for": ["storage-nosql"]
     },
     {
 	"name": "Neo4j",
+	"docs": "http://www.neo4j.org/",
+	"code": "https://github.com/neo4j/neo4j",
 	"good_for": ["storage-nosql"]
     },
     {
 	"name": "ElasticSearch",
+	"docs": "http://www.elasticsearch.org/",
+	"code": "https://github.com/elasticsearch/elasticsearch",
 	"license": "BSD",
 	"good_for": ["storage-nosql"]
     },
 
     {
 	"name": "sort",
+	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/sort.1.html",
 	"good_for": ["analysis-shell"]
     },
     {
 	"name": "uniq",
+	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/uniq.1.html",
 	"good_for": ["analysis-shell"]
     },
     {
 	"name": "awk",
+	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/awk.1.html",
 	"good_for": ["analysis-shell"]
     },
     {
 	"name": "sed",
+	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/sed.1.html",
 	"good_for": ["analysis-shell"]
     },
     {
 	"name": "grep",
+	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/grep.1.html",
 	"good_for": ["analysis-shell"]
     },
     {
 	"name": "cut",
+	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/cut.1.html",
 	"good_for": ["analysis-shell"]
     },
     {
 	"name": "curl",
+	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/curl.1.html",
 	"good_for": ["analysis-shell"]
     },
     {
 	"name": "tr",
+	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/tr.1.html",
 	"good_for": ["analysis-shell"]
     },
     {
 	"name": "xargs",
+	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/xargs.1.html",
 	"good_for": ["analysis-shell"]
     },
 
     {
 	"name": "scipy",
-	"documentation": "http://www.scipy.org/",
-	"repository": "https://github.com/scipy/scipy",
+	"docs": "http://www.scipy.org/",
+	"code": "https://github.com/scipy/scipy",
 	"license": "BSD",
 	"good_for": ["analysis-python"]
     },
     {
 	"name": "pandas",
-	"documentation": "http://pandas.pydata.org/",
-	"repository": "https://github.com/pydata/pandas",
+	"docs": "http://pandas.pydata.org/",
+	"code": "https://github.com/pydata/pandas",
 	"license": "BSD",
 	"good_for": ["analysis-python"]
     },
     {
 	"name": "scikit-learn",
-	"documentation": "http://scikit-learn.org/",
-	"repository": "https://github.com/scikit-learn/scikit-learn",
+	"docs": "http://scikit-learn.org/",
+	"code": "https://github.com/scikit-learn/scikit-learn",
 	"license": "BSD",
 	"good_for": ["analysis-python"]
     },
     {
 	"name": "nltk",
-	"documentation": "http://www.nltk.org/",
-	"repository": "https://github.com/nltk/nltk",
+	"docs": "http://www.nltk.org/",
+	"code": "https://github.com/nltk/nltk",
 	"license": "Apache 2.0",
 	"good_for": ["analysis-python"]
     },
     {
 	"name": "textblob",
-	"documentation": "http://textblob.readthedocs.org/",
-	"repository": "https://github.com/sloria/textblob",
+	"docs": "http://textblob.readthedocs.org/",
+	"code": "https://github.com/sloria/textblob",
 	"license": "MIT",
 	"good_for": ["analysis-python"]
     },
     {
 	"name": "biopython",
-	"documentation": "http://biopython.org/wiki/Main_Page",
-	"repository": "https://github.com/biopython/biopython",
+	"docs": "http://biopython.org/wiki/Main_Page",
+	"code": "https://github.com/biopython/biopython",
 	"good_for": ["analysis-python"]
     },
     {
 	"name": "Shapely",
-	"repository": "https://github.com/Toblerity/Shapely",
+	"code": "https://github.com/Toblerity/Shapely",
+	"docs": "http://toblerity.org/shapely/manual.html",
 	"license": "BSD",
 	"good_for": ["analysis-python"]
     },
     {
 	"name": "Pillow",
-	"documentation": "https://pillow.readthedocs.org/en/latest/",
-	"repository": "https://github.com/python-pillow/Pillow",
+	"docs": "https://pillow.readthedocs.org/en/latest/",
+	"code": "https://github.com/python-pillow/Pillow",
 	"license": "MIT",
 	"good_for": ["analysis-python"]
     },
 
     {
 	"name": "dplyr",
-	"repository": "https://github.com/hadley/dplyr",
+	"code": "https://github.com/hadley/dplyr",
+	"docs": "http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html",
 	"license": "MIT",
 	"good_for": ["analysis-r"]
     },
 
     {
 	"name": "Hadoop streaming",
-	"documentation": "http://hadoop.apache.org/docs/r1.2.1/streaming.html",
+	"docs": "http://hadoop.apache.org/docs/r1.2.1/streaming.html",
 	"good_for": ["analysis-hadoop"]
     },
     {
 	"name": "Mahout",
-	"documentation": "https://mahout.apache.org/",
+	"docs": "https://mahout.apache.org/",
+	"code": "https://github.com/apache/mahout",
 	"license": "Apache 2.0",
 	"good_for": ["analysis-hadoop"]
     },
 
     {
 	"name": "SimpleHTTPServer",
+	"docs": "https://docs.python.org/2/library/simplehttpserver.html",
 	"good_for": ["web-static"]
     },
     {
 	"name": "Apache",
+	"docs": "http://httpd.apache.org/",
+	"code": "https://github.com/apache/httpd",
+	"license": "Apache 2.0",
 	"good_for": ["web-static"]
     },
 
     {
 	"name": "Django",
-	"documentation": "https://www.djangoproject.com/",
-	"repository": "https://github.com/django/django",
+	"docs": "https://www.djangoproject.com/",
+	"code": "https://github.com/django/django",
 	"license": "BSD",
 	"language": "python",
 	"good_for": ["web-server"]
     },
     {
 	"name": "Flask",
-	"documentation": "http://flask.pocoo.org/",
-	"repository": "https://github.com/mitsuhiko/flask",
+	"docs": "http://flask.pocoo.org/",
+	"code": "https://github.com/mitsuhiko/flask",
 	"license": "BSD",
 	"language": "python",
 	"good_for": ["web-server"]
     },
     {
 	"name": "Ruby on Rails",
-	"documentation": "http://rubyonrails.org/",
+	"docs": "http://rubyonrails.org/",
+	"code": "https://github.com/rails/rails",
 	"language": "ruby",
 	"good_for": ["web-server"]
     },
     {
 	"name": "Jekyll",
-	"documentation": "http://jekyllrb.com/",
+	"docs": "http://jekyllrb.com/",
+	"code": "https://github.com/jekyll/jekyll",
 	"language": "ruby",
 	"good_for": ["web-server"]
     },
     {
 	"name": "celery",
-	"documentation": "http://www.celeryproject.org/",
-	"repository": "https://github.com/celery/celery",
+	"docs": "http://www.celeryproject.org/",
+	"code": "https://github.com/celery/celery",
 	"license": "BSD",
 	"good_for": ["web-server"]
     },
     {
 	"name": "rq",
-	"documentation": "http://python-rq.org/",
-	"repository": "https://github.com/nvie/rq",
+	"docs": "http://python-rq.org/",
+	"code": "https://github.com/nvie/rq",
 	"license": "BSD",
 	"good_for": ["web-server"]
     },
 
     {
 	"name": "backbone.js",
-	"documentation": "http://backbonejs.org/",
-	"repository": "https://github.com/jashkenas/backbone",
+	"docs": "http://backbonejs.org/",
+	"code": "https://github.com/jashkenas/backbone",
 	"good_for": ["web-client"]
     },
     {
 	"name": "ember.js",
-	"documentation": "http://emberjs.com/",
-	"repository": "https://github.com/emberjs/ember.js",
+	"docs": "http://emberjs.com/",
+	"code": "https://github.com/emberjs/ember.js",
 	"good_for": ["web-client"]
     },
     {
 	"name": "handlebars",
-	"documentation": "http://handlebarsjs.com/",
-	"repository": "https://github.com/wycats/handlebars.js/",
+	"docs": "http://handlebarsjs.com/",
+	"code": "https://github.com/wycats/handlebars.js/",
 	"good_for": ["web-client"]
     },
     {
 	"name": "sass",
-	"documentation": "http://sass-lang.com/",
-	"repository": "https://github.com/sass/sass",
+	"docs": "http://sass-lang.com/",
+	"code": "https://github.com/sass/sass",
 	"good_for": ["web-client"]
     },
     {
 	"name": "Bootstrap",
-	"documentation": "http://getbootstrap.com/",
-	"repository": "https://github.com/twbs/bootstrap/",
+	"docs": "http://getbootstrap.com/",
+	"code": "https://github.com/twbs/bootstrap/",
 	"good_for": ["web-client"]
     },
 
     {
 	"name": "jsfiddle",
+	"docs": "http://jsfiddle.net/",
 	"good_for": ["web-cloud"]
     },
     {
 	"name": "bl.ocks.org",
-	"documentation": "http://bl.ocks.org/",
+	"docs": "http://bl.ocks.org/",
 	"good_for": ["web-cloud"]
     },
 
     {
-	"name": "ggplot",
+	"name": "ggplot2",
+	"docs": "http://ggplot2.org/",
+	"code": "https://github.com/hadley/ggplot2",
 	"good_for": ["visualization-server"]
     },
     {
 	"name": "matplotlib",
+	"docs": "http://matplotlib.org/",
+	"code": "https://github.com/matplotlib/matplotlib",
 	"good_for": ["visualization-server"]
     },
     {
 	"name": "processing",
-	"documentation": "http://processing.org/",
+	"docs": "http://processing.org/",
+	"code": "https://github.com/processing/processing",
 	"good_for": ["visualization-server"]
     },
     {
 	"name": "xmgrace",
+	"docs": "http://plasma-gate.weizmann.ac.il/Grace/",
 	"good_for": ["visualization-server"]
     },
     {
 	"name": "pygrace",
+	"code": "https://github.com/pygrace/pygrace",
+	"docs": "http://pygrace.github.io/",
 	"good_for": ["visualization-server"]
     },
 
     {
 	"name": "d3",
+	"code": "https://github.com/mbostock/d3",
+	"docs": "http://d3js.org/",
+	"license": "BSD",
 	"good_for": ["visualization-client"]
     },
     {
 	"name": "hicharts",
-	"documentation": "http://www.highcharts.com/",
-	"repository": "https://github.com/highslide-software/highcharts.com/",
+	"docs": "http://www.highcharts.com/",
+	"code": "https://github.com/highslide-software/highcharts.com/",
 	"good_for": ["visualization-client"]
     },
     {
 	"name": "Leaflet",
-	"documentation": "http://leafletjs.com/",
-	"repository": "https://github.com/Leaflet/Leaflet/",
+	"docs": "http://leafletjs.com/",
+	"code": "https://github.com/Leaflet/Leaflet/",
 	"good_for": ["visualization-client"]
     },
     {
 	"name": "Open Street Map",
-	"documentation": "http://www.openstreetmap.org/",
+	"docs": "http://www.openstreetmap.org/",
 	"good_for": ["visualization-client"]
     },
     {
 	"name": "raphael.js",
-	"documentation": "http://raphaeljs.com/",
+	"docs": "http://raphaeljs.com/",
 	"license": "MIT",
-	"repository": "https://github.com/DmitryBaranovskiy/raphael/",
+	"code": "https://github.com/DmitryBaranovskiy/raphael/",
 	"good_for": ["visualization-client"]
     },
     {
 	"name": "dataTables",
-	"documentation": "http://datatables.net/",
+	"docs": "http://datatables.net/",
 	"license": "MIT",
-	"repository": "https://github.com/DataTables/DataTables",
+	"code": "https://github.com/DataTables/DataTables",
 	"good_for": ["visualization-client"]
     },
 
 
     {
 	"name": "mercurial",
+	"docs": "http://mercurial.selenic.com/",
 	"good_for": ["organization-version_control"]
     },
     {
 	"name": "git",
+	"docs": "http://git-scm.com/",
 	"good_for": ["organization-version_control"]
     },
 
@@ -438,44 +497,59 @@
     },
     {
 	"name": "make",
+	"docs": "http://www.gnu.org/software/make/",
 	"good_for": ["organization-workflow"]
     },
     {
 	"name": "drake",
+	"code": "https://github.com/Factual/drake",
 	"good_for": ["organization-workflow"]
     },
     {
 	"name": "flo",
+	"docs": "http://flo.readthedocs.org/",
+	"code": "https://github.com/deanmalmgren/flo/",
 	"good_for": ["organization-workflow"]
     },
 
     {
 	"name": "fabtools",
+	"code": "https://github.com/ronnix/fabtools",
+	"docs": "http://fabtools.readthedocs.org/",
 	"good_for": ["organization-provisioning"]
     },
     {
 	"name": "fabric",
+	"docs": "http://www.fabfile.org/",
+	"code": "https://github.com/fabric/fabric/",
 	"good_for": ["organization-provisioning"]
     },
     {
 	"name": "puppet",
+	"docs": "https://docs.puppetlabs.com/",
 	"good_for": ["organization-provisioning"]
     },
     {
 	"name": "chef",
+	"docs": "http://www.getchef.com/chef/",
 	"good_for": ["organization-provisioning"]
     },
 
     {
 	"name": "Vagrant",
+	"docs": "https://www.vagrantup.com/",
+	"code": "https://github.com/mitchellh/vagrant",
 	"good_for": ["organization-environment"]
     },
     {
 	"name": "Docker",
+	"docs": "https://www.docker.com/",
+	"code": "https://github.com/docker/docker",
 	"good_for": ["organization-environment"]
     },
     {
 	"name": "Virtualbox",
+	"docs": "https://www.virtualbox.org/",
 	"good_for": ["organization-environment"]
     }
 
