@@ -31,8 +31,8 @@ contributing
 This presentation is hosted via Github Pages and is intended to evolve
 over time as more tools become available and the landscape of open
 source tools changes. The goal here is not necessarily to include
-every available tool under the sun---there are far too many for
-that---but rather to identify a set of core tools that data scientists
+every available tool under the sun --- there are far too many for
+that --- but rather to identify a set of core tools that data scientists
 find most relevant and useful. Packages, frameworks, and tools are
 likely to be added and removed as their importance and relevance ebbs,
 but the intent is to keep this repository up to date.
