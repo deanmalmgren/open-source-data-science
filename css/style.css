@@ -36,9 +36,16 @@ html:before {
     left: 20px;
     color: #333;
     display: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    border: 5px solid #666;
 }
 #title .author {
     font-size: 70%;
+    text-align: right;
 }
 #title #credits a {
     color: #333;
@@ -47,8 +54,8 @@ html:before {
 #title #credits a:hover {
     color: #377eb8;
 }
-.impress-on-title .category h2 {
-    color: #999;
+.impress-on-title .category text {
+    fill: #999;
 }
 .impress-on-title #title #credits {
     display: block;
@@ -112,10 +119,15 @@ html:before {
 }
 
 /************************************************** styling for list headers */
-.category h2 {
+.category svg text {
     font-size: 75%;
     color: #333;
-    text-align: center;
+    text-anchor: middle;
+    font-weight: bold;
+}
+.category svg text.backer {
+    stroke: white;
+    stroke-width: 3px;
 }
 
 /************************************************ styling for lists of tools */
