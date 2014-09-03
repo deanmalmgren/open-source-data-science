@@ -9,7 +9,7 @@ on how to solve a problem. As the
 > I suppose it is tempting, if the only tool you have is a hammer, to
 > treat everything as if it were a nail.
 >
-> - Abraham Maslow, 1966
+> -- Abraham Maslow, 1966
 
 But the fact of the matter is that many people are not aware of the
 vast array of open source tools that they have at their disposal when
@@ -31,8 +31,8 @@ contributing
 This presentation is hosted via Github Pages and is intended to evolve
 over time as more tools become available and the landscape of open
 source tools changes. The goal here is not necessarily to include
-every available tool under the sun---there are far too many for
-that---but rather to identify a set of core tools that data scientists
+every available tool under the sun --- there are far too many for
+that --- but rather to identify a set of core tools that data scientists
 find most relevant and useful. Packages, frameworks, and tools are
 likely to be added and removed as their importance and relevance ebbs,
 but the intent is to keep this repository up to date.
