@@ -288,6 +288,13 @@
 	"license": "MIT",
 	"good_for": ["analysis-python"]
     },
+    {
+	"name": "NetworkX",
+	"docs": "https://networkx.github.io/",
+	"code": "https://github.com/networkx/networkx",
+	"license": "BSD",
+	"good_for": ["analysis-python"]
+    },
 
     {
 	"name": "dplyr",
