@@ -27,6 +27,12 @@
 	"docs": "http://www.seleniumhq.org/",
 	"good_for": ["acquisition-screen_scraping"]
     },
+    {
+	"name": "httr",
+	"code": "https://github.com/hadley/httr",
+	"language": "R",
+	"good_for": ["acquisition-screen_scraping"]
+    },
 
     {
 	"name": "tweepy",
@@ -301,6 +307,15 @@
 	"code": "https://github.com/hadley/dplyr",
 	"docs": "http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html",
 	"license": "MIT",
+	"language": "R",
+	"good_for": ["analysis-r"]
+    },
+    {
+	"name": "data.table",
+	"code": "https://github.com/Rdatatable/data.table",
+	"docs": "http://datatable.r-forge.r-project.org/",
+	"language": "R",
+	"license": "GPL 3",
 	"good_for": ["analysis-r"]
     },
 
@@ -372,6 +387,13 @@
 	"docs": "http://python-rq.org/",
 	"code": "https://github.com/nvie/rq",
 	"license": "BSD",
+	"good_for": ["web-server"]
+    },
+    {
+	"name": "shiny",
+	"docs": "http://shiny.rstudio.com/",
+	"code": "https://github.com/rstudio/shiny",
+	"language": "R",
 	"good_for": ["web-server"]
     },
 
@@ -446,6 +468,13 @@
 	"docs": "http://pygrace.github.io/",
 	"good_for": ["visualization-server"]
     },
+    {
+	"name": "ggvis",
+	"code": "https://github.com/rstudio/ggvis",
+	"docs": "http://ggvis.rstudio.com/",
+	"language": "R",
+	"good_for": ["visualization-server"]
+    },
 
     {
 	"name": "d3",
@@ -485,7 +514,6 @@
 	"code": "https://github.com/DataTables/DataTables",
 	"good_for": ["visualization-client"]
     },
-
 
     {
 	"name": "mercurial",
@@ -539,6 +567,13 @@
     {
 	"name": "chef",
 	"docs": "http://www.getchef.com/chef/",
+	"good_for": ["organization-provisioning"]
+    },
+    {
+	"name": "packrat",
+	"docs": "http://rstudio.github.io/packrat/",
+	"code": "https://github.com/rstudio/packrat",
+	"language": "R",
 	"good_for": ["organization-provisioning"]
     },
 
