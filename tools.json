@@ -396,6 +396,13 @@
 	"language": "R",
 	"good_for": ["web-server"]
     },
+    {
+	"name": "Node.js",
+	"docs": "http://nodejs.org/",
+	"code": "https://github.com/joyent/node/",
+	"language": "javascript",
+	"good_for": ["web-server"]
+    },
 
     {
 	"name": "backbone.js",
@@ -413,6 +420,12 @@
 	"name": "handlebars",
 	"docs": "http://handlebarsjs.com/",
 	"code": "https://github.com/wycats/handlebars.js/",
+	"good_for": ["web-client"]
+    },
+    {
+	"name": "Angular.js",
+	"docs": "https://angularjs.org/",
+	"code": "https://github.com/angular/angular.js",
 	"good_for": ["web-client"]
     },
     {
@@ -436,6 +449,11 @@
     {
 	"name": "bl.ocks.org",
 	"docs": "http://bl.ocks.org/",
+	"good_for": ["web-cloud"]
+    },
+    {
+	"name": "Plunker",
+	"docs": "http://plnkr.co/",
 	"good_for": ["web-cloud"]
     },
 
