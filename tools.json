@@ -546,6 +546,21 @@
 	"code": "https://github.com/deanmalmgren/flo/",
 	"good_for": ["organization-workflow"]
     },
+    {
+	"name": "Taverna",
+	"docs": "http://www.taverna.org.uk/",
+	"good_for": ["organization-workflow"]
+    },
+    {
+	"name": "Kepler",
+	"docs": "https://kepler-project.org/",
+	"good_for": ["organization-workflow"]
+    },
+    {
+	"name": "Galaxy",
+	"docs": "http://galaxyproject.org/",
+	"good_for": ["organization-workflow"]
+    },
 
     {
 	"name": "fabtools",
