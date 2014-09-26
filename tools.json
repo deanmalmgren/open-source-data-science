@@ -318,6 +318,14 @@
 	"license": "GPL 3",
 	"good_for": ["analysis-r"]
     },
+    {
+	"name": "CausalImpact",
+	"code": "https://github.com/google/CausalImpact",
+	"docs": "http://google.github.io/CausalImpact/",
+	"language": "R",
+	"license": "Apache 2.0",
+	"good_for": ["analysis-r"]
+    },
 
     {
 	"name": "Hadoop streaming",
