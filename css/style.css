@@ -67,6 +67,11 @@ html:before {
     background-image: url('../img/ocean-small.png');
 }
 
+/* give user hint that map is clickable */
+.category, .details {
+    cursor: pointer;
+}
+
 /************************************************************* caveat slides */
 #toolz, #open-source {
     z-index: -1;
@@ -130,7 +135,7 @@ html:before {
 .details {
     width: 450px;
     margin: 10px;
-    height: 600px;
+    height: 650px;
     -webkit-border-radius: 10px;
        -moz-border-radius: 10px;
             border-radius: 10px;
