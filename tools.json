@@ -80,6 +80,28 @@
     {
 	"name": "rawes",
 	"code": "https://github.com/humangeo/rawes",
+	"language": "python",
+	"good_for": ["acquisition-databases"]
+    },
+    {
+	"name": "RMySQL",
+	"code": "https://github.com/jeffreyhorner/RMySQL",
+	"docs": "http://biostat.mc.vanderbilt.edu/wiki/Main/RMySQL",
+	"language": "R",
+	"good_for": ["acquisition-databases"]
+    },
+    {
+	"name": "RPostgreSQL",
+	"code": "https://code.google.com/p/rpostgresql/",
+	"license": "GPL 2",
+	"language": "R",
+	"good_for": ["acquisition-databases"]
+    },
+    {
+	"name": "RMongo",
+	"code": "https://github.com/tc/RMongo",
+	"license": "GPL 3",
+	"language": "R",
 	"good_for": ["acquisition-databases"]
     },
 
@@ -100,6 +122,13 @@
 	"docs": "http://www.python-excel.org/",
 	"code": "https://github.com/python-excel/xlrd",
 	"license": "BSD",
+	"good_for": ["acquisition-flat_files"]
+    },
+    {
+	"name": "foreign",
+	"docs": "http://cran.r-project.org/web/packages/foreign/",
+	"language": "R",
+	"license": "GPL 3",
 	"good_for": ["acquisition-flat_files"]
     },
 
@@ -303,6 +332,14 @@
     },
 
     {
+	"name": "plyr",
+	"code": "https://github.com/hadley/plyr",
+	"docs": "http://plyr.had.co.nz/",
+	"license": "MIT",
+	"language": "R",
+	"good_for": ["analysis-r"]
+    },
+    {
 	"name": "dplyr",
 	"code": "https://github.com/hadley/dplyr",
 	"docs": "http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html",
@@ -319,6 +356,13 @@
 	"good_for": ["analysis-r"]
     },
     {
+	"name": "qcc",
+	"docs": "http://cran.r-project.org/web/packages/qcc/",
+	"language": "R",
+	"license": "GPL 3",
+	"good_for": ["analysis-r"]
+    },
+    {
 	"name": "CausalImpact",
 	"code": "https://github.com/google/CausalImpact",
 	"docs": "http://google.github.io/CausalImpact/",
@@ -326,7 +370,27 @@
 	"license": "Apache 2.0",
 	"good_for": ["analysis-r"]
     },
-
+    {
+	"name": "randomForest",
+	"docs": "http://cran.r-project.org/web/packages/randomForest/",
+	"language": "R",
+	"license": "GPL 3",
+	"good_for": ["analysis-r"]
+    },
+    {
+	"name": "survival",
+	"docs": "http://cran.r-project.org/web/packages/survival/",
+	"language": "R",
+	"license": "GPL 3",
+	"good_for": ["analysis-r"]
+    },
+    {
+	"name": "mgcv",
+	"docs": "http://cran.r-project.org/web/packages/mgcv/",
+	"language": "R",
+	"license": "GPL 3",
+	"good_for": ["analysis-r"]
+    },
 
     {
 	"name": "MapReduce",
@@ -518,6 +582,13 @@
 	"name": "ggvis",
 	"code": "https://github.com/rstudio/ggvis",
 	"docs": "http://ggvis.rstudio.com/",
+	"language": "R",
+	"good_for": ["visualization-server"]
+    },
+    {
+	"name": "knitr",
+	"code": "https://github.com/yihui/knitr",
+	"docs": "http://yihui.name/knitr/",
 	"language": "R",
 	"good_for": ["visualization-server"]
     },
