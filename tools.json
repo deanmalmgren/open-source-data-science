@@ -327,6 +327,12 @@
 	"good_for": ["analysis-r"]
     },
 
+
+    {
+	"name": "MapReduce",
+	"docs": "http://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html",
+	"good_for": ["analysis-hadoop"]
+    },
     {
 	"name": "Hadoop streaming",
 	"docs": "http://hadoop.apache.org/docs/r1.2.1/streaming.html",
@@ -336,6 +342,20 @@
 	"name": "Mahout",
 	"docs": "https://mahout.apache.org/",
 	"code": "https://github.com/apache/mahout",
+	"license": "Apache 2.0",
+	"good_for": ["analysis-hadoop"]
+    },
+    {
+	"name": "Pig",
+	"docs": "http://pig.apache.org/",
+	"code": "https://github.com/apache/pig",
+	"license": "Apache 2.0",
+	"good_for": ["analysis-hadoop"]
+    },
+    {
+	"name": "Lucene/Solr",
+	"docs": "http://lucene.apache.org/",
+	"code": "https://github.com/apache/lucene-solr",
 	"license": "Apache 2.0",
 	"good_for": ["analysis-hadoop"]
     },
@@ -585,6 +605,13 @@
     {
 	"name": "Galaxy",
 	"docs": "http://galaxyproject.org/",
+	"good_for": ["organization-workflow"]
+    },
+    {
+	"name": "Oozie",
+	"docs": "http://oozie.apache.org/",
+	"code": "https://github.com/apache/oozie",
+	"license": "Apache 2.0",
 	"good_for": ["organization-workflow"]
     },
 
