@@ -95,6 +95,9 @@ body[class*="caveat"] #footnote svg text.backer {
             border-radius: 10px;
     border: 5px solid #666;
 }
+#title h1.title {
+    font-size: 1em;
+}
 #title .author {
     font-size: 70%;
     text-align: right;
