@@ -238,6 +238,7 @@ body[class*="caveat"] #footnote svg text.backer {
 body[class*="acquisition"] .details[id^="acquisition"] {
     opacity: 0.3;
     background-color: rgba(255, 255, 255, 0);
+    z-index: 5;
 
     -webkit-transition: opacity 1s, background-color 1s;
        -moz-transition: opacity 1s, background-color 1s;
@@ -248,6 +249,7 @@ body[class*="acquisition"] .details[id^="acquisition"] {
 body[class*="acquisition"] .details[id^="acquisition"].active {
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.8);
+    z-index: 5;
 
     -webkit-transition: opacity 1s, background-color 1s;
        -moz-transition: opacity 1s, background-color 1s;
@@ -259,6 +261,7 @@ body[class*="acquisition"] .details[id^="acquisition"].active {
 body[class*="web"] .details[id^="web"] {
     opacity: 0.3;
     background-color: rgba(255, 255, 255, 0);
+    z-index: 5;
 
     -webkit-transition: opacity 1s, background-color 1s;
        -moz-transition: opacity 1s, background-color 1s;
@@ -269,6 +272,7 @@ body[class*="web"] .details[id^="web"] {
 body[class*="web"] .details[id^="web"].active {
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.8);
+    z-index: 5;
 
     -webkit-transition: opacity 1s, background-color 1s;
        -moz-transition: opacity 1s, background-color 1s;
@@ -280,6 +284,7 @@ body[class*="web"] .details[id^="web"].active {
 body[class*="storage"] .details[id^="storage"] {
     opacity: 0.3;
     background-color: rgba(255, 255, 255, 0);
+    z-index: 5;
 
     -webkit-transition: opacity 1s, background-color 1s;
        -moz-transition: opacity 1s, background-color 1s;
@@ -290,6 +295,7 @@ body[class*="storage"] .details[id^="storage"] {
 body[class*="storage"] .details[id^="storage"].active {
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.8);
+    z-index: 5;
 
     -webkit-transition: opacity 1s, background-color 1s;
        -moz-transition: opacity 1s, background-color 1s;
@@ -301,6 +307,7 @@ body[class*="storage"] .details[id^="storage"].active {
 body[class*="analysis"] .details[id^="analysis"] {
     opacity: 0.3;
     background-color: rgba(255, 255, 255, 0);
+    z-index: 5;
 
     -webkit-transition: opacity 1s, background-color 1s;
        -moz-transition: opacity 1s, background-color 1s;
@@ -311,6 +318,7 @@ body[class*="analysis"] .details[id^="analysis"] {
 body[class*="analysis"] .details[id^="analysis"].active {
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.8);
+    z-index: 5;
 
     -webkit-transition: opacity 1s, background-color 1s;
        -moz-transition: opacity 1s, background-color 1s;
@@ -322,6 +330,7 @@ body[class*="analysis"] .details[id^="analysis"].active {
 body[class*="visualization"] .details[id^="visualization"] {
     opacity: 0.3;
     background-color: rgba(255, 255, 255, 0);
+    z-index: 5;
 
     -webkit-transition: opacity 1s, background-color 1s;
        -moz-transition: opacity 1s, background-color 1s;
@@ -332,6 +341,7 @@ body[class*="visualization"] .details[id^="visualization"] {
 body[class*="visualization"] .details[id^="visualization"].active {
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.8);
+    z-index: 5;
 
     -webkit-transition: opacity 1s, background-color 1s;
        -moz-transition: opacity 1s, background-color 1s;
@@ -343,6 +353,7 @@ body[class*="visualization"] .details[id^="visualization"].active {
 body[class*="organization"] .details[id^="organization"] {
     opacity: 0.3;
     background-color: rgba(255, 255, 255, 0);
+    z-index: 5;
 
     -webkit-transition: opacity 1s, background-color 1s;
        -moz-transition: opacity 1s, background-color 1s;
@@ -353,6 +364,7 @@ body[class*="organization"] .details[id^="organization"] {
 body[class*="organization"] .details[id^="organization"].active {
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.8);
+    z-index: 5;
 
     -webkit-transition: opacity 1s, background-color 1s;
        -moz-transition: opacity 1s, background-color 1s;
