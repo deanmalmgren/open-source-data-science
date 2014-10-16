@@ -653,6 +653,12 @@
 	"good_for": ["organization-workflow"]
     },
     {
+    	"name": "luigi",
+    	"code": "https://github.com/spotify/luigi",
+    	"docs": "http://luigi.readthedocs.org/",
+    	"good_for": ["organization-workflow"]
+    },
+    {
 	"name": "drake",
 	"code": "https://github.com/Factual/drake",
 	"good_for": ["organization-workflow"]
