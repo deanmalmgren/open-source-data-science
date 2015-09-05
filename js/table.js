@@ -32,15 +32,12 @@ d3.json('../tools.json', function (error, tools) {
                 title: 'License',
                 render: function (data, type, tool) {
                     if (tool.license) {
-                        return tool.license;
+                        var url = LICENSES[tool.license];
+                        return '<a href="'+url+'">'+tool.license+'</a>';
                     }
                     return unknown;
                 }
-            },
-            //     data: 'url',
-            //     title: 'Link',
-            //     visible: false
-            // }
+            }
         ],
 
         // initComplete: function () {
