@@ -20,13 +20,11 @@ d3.json('../tools.json', function (error, tools) {
         columns: [
             {
                 data: 'name',
-                title: 'Name',
+                title: '<span class="code"></span><span class="docs"></span>Name',
                 render: function (data, type, tool) {
-                    var url = tool.code || tool.docs;
-                    if (!url) {
-                        return tool.name;
-                    }
-                    return '<a href="' + url + '">' + tool.name + '</a>';
+                    var code = get_code_dom(tool);
+                    var docs = get_docs_dom(tool);
+                    return code + docs + tool.name;
                 }
             },
             {
@@ -39,31 +37,6 @@ d3.json('../tools.json', function (error, tools) {
                     return unknown;
                 }
             },
-            {
-                data: 'code',
-                title: 'Repository',
-                render: function (data, type, tool) {
-                    if (!tool.code) {
-                        return unknown;
-                    }
-                    var icon;
-                    if (tool.code.indexOf('github.com') > -1) {
-                        icon = '<i class="fa fa-github"></i>';
-                    }
-                    else if (tool.code.indexOf('bitbucket.com') > -1) {
-                        icon = '<i class="fa fa-bitbucket"></i>';
-                    }
-                    else if (tool.code.indexOf('google.com') > -1) {
-                        icon = '<i class="fa fa-google"></i>';
-                    }
-                    else {
-                        icon = '<i class="fa fa-code"></i>';
-                    }
-                    return '<a href="'+tool.code+'">'+icon+'</a>';
-                }
-
-            }
-            // {
             //     data: 'url',
             //     title: 'Link',
             //     visible: false
@@ -77,3 +50,33 @@ d3.json('../tools.json', function (error, tools) {
 
     }); // end of .dataTable()
 });
+
+function get_code_dom(tool) {
+    var inner = '';
+    if (tool.code) {
+        var icon;
+        if (tool.code.indexOf('github.com') > -1) {
+            icon = '<i class="fa fa-github"></i>';
+        }
+        else if (tool.code.indexOf('bitbucket.com') > -1) {
+            icon = '<i class="fa fa-bitbucket"></i>';
+        }
+        else if (tool.code.indexOf('google.com') > -1) {
+            icon = '<i class="fa fa-google"></i>';
+        }
+        else {
+            icon = '<i class="fa fa-code"></i>';
+        }
+        inner = '<a href="'+tool.code+'">'+icon+'</a>';
+    }
+    return '<span class="code">' + inner + '</span>';
+}
+
+function get_docs_dom(tool) {
+    var inner = '';
+    if (tool.docs) {
+        var icon = '<i class="fa fa-file-text-o"></i>';
+        inner = '<a href="'+tool.docs+'">'+icon+'</a>';
+    }
+    return '<span class="docs">' + inner + '</span>';
+}
