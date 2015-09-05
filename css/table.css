@@ -7,3 +7,27 @@
     width: 1.2em;
     margin-right: 0.5em;
 }
+
+.web, .acquisition, .storage, .analysis, .visualization, .organization {
+    margin-right: 0.5em;
+    color: white;
+}
+
+.btn-default.web {
+    background-color: #e41a1c;
+}
+.btn-default.acquisition {
+    background-color: #377eb8;
+}
+.btn-default.storage {
+    background-color: #4daf4a;
+}
+.btn-default.analysis {
+    background-color: #984ea3;
+}
+.btn-default.visualization {
+    background-color: #ff7f00;
+}
+.btn-default.organization {
+    background-color: #a65628;
+}

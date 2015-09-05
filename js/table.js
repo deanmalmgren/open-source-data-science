@@ -37,7 +37,22 @@ d3.json('../tools.json', function (error, tools) {
                     }
                     return unknown;
                 }
-            }
+            },
+            {
+                data: 'good_for',
+                title: 'Useful for',
+                render: function (data, type, tool) {
+                    var result = '', category, subcategory;
+                    tool.good_for.forEach(function (d, i) {
+                        category = d.split('-')[0];
+                        subcategory = d.split('-')[1];
+                        result += '<span class="btn btn-sm btn-default disabled '+category+'">';
+                        result += d.replace('-', ': ').replace('_', ' ');
+                        result += '</span>';
+                    })
+                    return result;
+                }
+            },
         ],
 
         // initComplete: function () {
