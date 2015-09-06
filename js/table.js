@@ -1,15 +1,8 @@
-var dateFormat = 'MMM Do, YYYY';
-
 d3.json('../tools.json', function (error, tools) {
 
     var unknown = '<span class="unknown">(unknown)</span>';
 
     $('#tool-table').dataTable({
-
-        // language: {
-        //     search: "_INPUT_",
-        //     searchPlaceholder: 'Use this to filter by matching text'
-        // },
 
         data: tools,
 
@@ -55,13 +48,11 @@ d3.json('../tools.json', function (error, tools) {
             },
         ],
 
-        // initComplete: function () {
-        //     var input = $('#table-table_filter input');
-        //     input.wrap('<form></form>');
-        // }
+        order: [[2, "asc"], [0, "asc"]],
 
-    }); // end of .dataTable()
+    });
 });
+
 
 function get_code_dom(tool) {
     var inner = '';
@@ -83,6 +74,7 @@ function get_code_dom(tool) {
     }
     return '<span class="code">' + inner + '</span>';
 }
+
 
 function get_docs_dom(tool) {
     var inner = '';
