@@ -38,6 +38,7 @@
 	"name": "tweepy",
 	"docs": "http://www.tweepy.org/",
 	"code": "https://github.com/tweepy/tweepy/",
+	"license":"MIT",
 	"good_for": ["acquisition-api_wrappers"]
     },
     {
