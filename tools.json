@@ -78,12 +78,14 @@
 	"name": "psycopg",
 	"code": "https://github.com/psycopg/psycopg2/",
 	"docs": "http://initd.org/psycopg/",
+	"license": "LGPL",
 	"good_for": ["acquisition-databases"]
     },
     {
 	"name": "rawes",
 	"code": "https://github.com/humangeo/rawes",
 	"language": "python",
+	"license": "Apache 2.0",
 	"good_for": ["acquisition-databases"]
     },
     {
@@ -112,12 +114,14 @@
 	"name": "Tika",
 	"docs": "http://tika.apache.org/",
 	"code": "https://github.com/apache/tika/",
+	"license": "Apache 2.0",
 	"good_for": ["acquisition-flat_files"]
     },
     {
 	"name": "textract",
 	"code": "https://github.com/deanmalmgren/textract",
 	"docs": "http://textract.readthedocs.org/",
+	"license": "MIT",
 	"good_for": ["acquisition-flat_files"]
     },
     {
@@ -194,15 +198,15 @@
 
     {
 	"name": "MongoDB",
-	"license": "AGPL 3.0",
 	"docs": "http://www.mongodb.org/",
+	"license": "AGPL 3.0",
 	"good_for": ["storage-nosql"]
     },
     {
 	"name": "Redis",
-	"license": "BSD",
 	"docs": "http://redis.io/",
 	"code": "https://github.com/antirez/redis",
+	"license": "BSD",
 	"good_for": ["storage-nosql"]
     },
     {
@@ -215,6 +219,7 @@
 	"name": "Neo4j",
 	"docs": "http://www.neo4j.org/",
 	"code": "https://github.com/neo4j/neo4j",
+	"license": "GPLv3",
 	"good_for": ["storage-nosql"]
     },
     {
@@ -228,11 +233,13 @@
     {
 	"name": "sort",
 	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/sort.1.html",
+	"license": "GPLv3+",
 	"good_for": ["analysis-shell"]
     },
     {
 	"name": "uniq",
 	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/uniq.1.html",
+	"license": "GPLv3+",
 	"good_for": ["analysis-shell"]
     },
     {
@@ -243,6 +250,7 @@
     {
 	"name": "sed",
 	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/sed.1.html",
+	"license": "GPLv3+",
 	"good_for": ["analysis-shell"]
     },
     {
@@ -253,6 +261,7 @@
     {
 	"name": "cut",
 	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/cut.1.html",
+	"license": "GPLv3+",
 	"good_for": ["analysis-shell"]
     },
     {
@@ -263,6 +272,7 @@
     {
 	"name": "tr",
 	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/tr.1.html",
+	"license": "GPLv3+",
 	"good_for": ["analysis-shell"]
     },
     {
@@ -338,16 +348,16 @@
 	"name": "plyr",
 	"code": "https://github.com/hadley/plyr",
 	"docs": "http://plyr.had.co.nz/",
-	"license": "MIT",
 	"language": "R",
+	"license": "MIT",
 	"good_for": ["analysis-r"]
     },
     {
 	"name": "dplyr",
 	"code": "https://github.com/hadley/dplyr",
 	"docs": "http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html",
-	"license": "MIT",
 	"language": "R",
+	"license": "MIT",
 	"good_for": ["analysis-r"]
     },
     {
@@ -444,16 +454,16 @@
 	"name": "Django",
 	"docs": "https://www.djangoproject.com/",
 	"code": "https://github.com/django/django",
-	"license": "BSD",
 	"language": "python",
+	"license": "BSD",
 	"good_for": ["web-server"]
     },
     {
 	"name": "Flask",
 	"docs": "http://flask.pocoo.org/",
 	"code": "https://github.com/mitsuhiko/flask",
-	"license": "BSD",
 	"language": "python",
+	"license": "BSD",
 	"good_for": ["web-server"]
     },
     {
@@ -461,6 +471,7 @@
 	"docs": "http://rubyonrails.org/",
 	"code": "https://github.com/rails/rails",
 	"language": "ruby",
+	"license": "MIT",
 	"good_for": ["web-server"]
     },
     {
@@ -468,6 +479,7 @@
 	"docs": "http://jekyllrb.com/",
 	"code": "https://github.com/jekyll/jekyll",
 	"language": "ruby",
+	"license": "MIT",
 	"good_for": ["web-server"]
     },
     {
@@ -489,6 +501,7 @@
 	"docs": "http://shiny.rstudio.com/",
 	"code": "https://github.com/rstudio/shiny",
 	"language": "R",
+	"license": "GPL-3",
 	"good_for": ["web-server"]
     },
     {
@@ -503,6 +516,7 @@
 	"name": "backbone.js",
 	"docs": "http://backbonejs.org/",
 	"code": "https://github.com/jashkenas/backbone",
+	"license": "MIT",
 	"good_for": ["web-client"]
     },
     {
@@ -521,18 +535,21 @@
 	"name": "Angular.js",
 	"docs": "https://angularjs.org/",
 	"code": "https://github.com/angular/angular.js",
+	"license": "MIT",
 	"good_for": ["web-client"]
     },
     {
 	"name": "sass",
 	"docs": "http://sass-lang.com/",
 	"code": "https://github.com/sass/sass",
+	"license": "MIT",
 	"good_for": ["web-client"]
     },
     {
 	"name": "Bootstrap",
 	"docs": "http://getbootstrap.com/",
 	"code": "https://github.com/twbs/bootstrap/",
+	"license": "MIT",
 	"good_for": ["web-client"]
     },
 
@@ -544,6 +561,7 @@
     {
 	"name": "bl.ocks.org",
 	"docs": "http://bl.ocks.org/",
+	"license": "BSD",
 	"good_for": ["web-cloud"]
     },
     {
