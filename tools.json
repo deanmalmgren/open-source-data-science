@@ -71,6 +71,7 @@
 	"name": "pymongo",
 	"code": "https://github.com/mongodb/mongo-python-driver",
 	"docs": "http://api.mongodb.org/python/current/",
+	"license": "Apache 2.0",
 	"good_for": ["acquisition-databases"]
     },
     {
