@@ -380,6 +380,13 @@
     "good_for": ["analysis-python"]
     },
     {
+    "name": "arrow",
+    "docs": "http://crsmithdev.com/arrow/",
+    "code": "https://github.com/crsmithdev/arrow",
+    "license": "Apache 2.0",
+    "good_for": ["analysis-python"]
+    },
+    {
 	"name": "plyr",
 	"code": "https://github.com/hadley/plyr",
 	"docs": "http://plyr.had.co.nz/",
