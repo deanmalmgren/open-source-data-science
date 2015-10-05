@@ -141,33 +141,41 @@
 
     {
 	"name": "json format",
+    "docs": "http://www.json.org/",
 	"good_for": ["storage-flat_files"]
     },
     {
 	"name": "csv format",
+    "docs": "https://www.ietf.org/rfc/rfc4180.txt",
 	"good_for": ["storage-flat_files"]
     },
     {
 	"name": "xml format",
+    "docs": "http://www.w3.org/XML/",
 	"good_for": ["storage-flat_files"]
     },
     {
 	"name": "html format",
+    "docs": "http://www.w3.org/TR/html5/",
 	"good_for": ["storage-flat_files"]
     },
     {
 	"name": "graphml format",
+    "docs": "http://graphml.graphdrawing.org/",
 	"good_for": ["storage-flat_files"]
     },
     {
 	"name": "yaml format",
+    "docs": "http://yaml.org/",
 	"good_for": ["storage-flat_files"]
     },
     {
 	"name": "hdfs",
+    "code": "https://github.com/apache/hadoop",
+    "docs": "https://hadoop.apache.org/docs/r2.4.1/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html",
+    "license": "Apache 2.0",
 	"good_for": ["storage-flat_files"]
     },
-
     {
 	"name": "MySQL",
 	"docs": "http://www.mysql.com/",
@@ -666,6 +674,7 @@
 
     {
 	"name": "shell script",
+    "docs": "http://www.gnu.org/software/bash/manual/bash.html",
 	"good_for": ["organization-workflow", "organization-provisioning"]
     },
     {
