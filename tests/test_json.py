@@ -41,13 +41,20 @@ class JsonTestCase(unittest.TestCase):
         """make sure everything has a good_for key"""
         package_list = self.load_package_list()
         for package in package_list:
-            self.assertTrue(package.has_key('good_for'))
+            self.assertTrue(
+                package.has_key('good_for'),
+                "no good_for key for package %s" % str(package),
+            )
 
     def test_good_for_list(self):
         """make sure good_for is always a list"""
         package_list = self.load_package_list()
         for package in package_list:
-            self.assertIsInstance(package['good_for'], list)
+            self.assertIsInstance(
+                package['good_for'],
+                list,
+                "package.good_for must be a list. %s" % str(package),
+            )
 
     def test_good_for_entries(self):
         """make sure the good_for conforms to our classification"""
@@ -56,4 +63,26 @@ class JsonTestCase(unittest.TestCase):
         for package in package_list:
             for package in package_list:
                 for good_for in package['good_for']:
-                    self.assertIn(good_for, classifications)
+                    self.assertIn(
+                        good_for,
+                        classifications,
+                        "package.good_for list entries must be one of %s: %s" % (classifications, package),
+                    )
+
+    def test_name(self):
+        """make sure everything has a name"""
+        package_list = self.load_package_list()
+        for package in package_list:
+            self.assertTrue(
+                package.has_key("name"),
+                "package must have a name %s" % str(package),
+            )
+
+    def test_code_or_docs(self):
+        """make sure the package has either a code or docs specified"""
+        package_list = self.load_package_list()
+        for package in package_list:
+            self.assertTrue(
+                package.has_key("code") or package.has_key("docs"),
+                "package must either have code or docs %s" % str(package),
+            )
