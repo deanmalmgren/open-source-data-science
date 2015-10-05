@@ -452,7 +452,7 @@
     "language": "R",
     "license": "GPL 2",
     "good_for": ["analysis-r"]
-    }
+    },
     {
 	"name": "MapReduce",
 	"docs": "http://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html",
