@@ -1,0 +1,7 @@
+language: python
+python:
+  - "2.7"
+
+# commands to run the testing suite. if any of these fail, travic lets us know
+script:
+  - nosetests
