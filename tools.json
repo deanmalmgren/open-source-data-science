@@ -227,7 +227,7 @@
 	"name": "Neo4j",
 	"docs": "http://www.neo4j.org/",
 	"code": "https://github.com/neo4j/neo4j",
-	"license": "GPLv3",
+	"license": "GPL 3",
 	"good_for": ["storage-nosql"]
     },
     {
@@ -241,13 +241,13 @@
     {
 	"name": "sort",
 	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/sort.1.html",
-	"license": "GPLv3+",
+	"license": "GPL 3",
 	"good_for": ["analysis-shell"]
     },
     {
 	"name": "uniq",
 	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/uniq.1.html",
-	"license": "GPLv3+",
+	"license": "GPL 3",
 	"good_for": ["analysis-shell"]
     },
     {
@@ -258,7 +258,7 @@
     {
 	"name": "sed",
 	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/sed.1.html",
-	"license": "GPLv3+",
+	"license": "GPL 3",
 	"good_for": ["analysis-shell"]
     },
     {
@@ -269,7 +269,7 @@
     {
 	"name": "cut",
 	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/cut.1.html",
-	"license": "GPLv3+",
+	"license": "GPL 3",
 	"good_for": ["analysis-shell"]
     },
     {
@@ -280,7 +280,7 @@
     {
 	"name": "tr",
 	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/tr.1.html",
-	"license": "GPLv3+",
+	"license": "GPL 3",
 	"good_for": ["analysis-shell"]
     },
     {
@@ -509,7 +509,7 @@
 	"docs": "http://shiny.rstudio.com/",
 	"code": "https://github.com/rstudio/shiny",
 	"language": "R",
-	"license": "GPL-3",
+	"license": "GPL 3",
 	"good_for": ["web-server"]
     },
     {

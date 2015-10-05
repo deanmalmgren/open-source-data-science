@@ -7,9 +7,9 @@ tests_root = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(tests_root)
 json_filename = os.path.join(project_root, "tools.json")
 classification_filename = os.path.join(
-    tests_root,
-    "good_for_classification.dat",
+    tests_root, "good_for_classification.dat",
 )
+licenses_filename = os.path.join(project_root, 'js', 'licenses.js')
 
 
 class JsonTestCase(unittest.TestCase):
@@ -28,6 +28,14 @@ class JsonTestCase(unittest.TestCase):
             for line in stream:
                 good_for_classifications.add(line.strip())
         return good_for_classifications
+
+    def load_licenses(self):
+        with open(licenses_filename) as stream:
+            js_string = stream.read()
+        i = js_string.find('{')
+        j = js_string.find('}')
+        json_string = js_string[i:j+1].strip()
+        return json.loads(json_string)
 
     def test_valid_json(self):
         """make sure this is a valid json"""
@@ -86,3 +94,15 @@ class JsonTestCase(unittest.TestCase):
                 package.has_key("code") or package.has_key("docs"),
                 "package must either have code or docs %s" % str(package),
             )
+
+    def test_licenses(self):
+        """make sure that licenses are properly listed"""
+        package_list = self.load_package_list()
+        licenses = self.load_licenses()
+        for package in package_list:
+            if package.has_key("license"):
+                self.assertIn(
+                    package["license"],
+                    licenses,
+                    "either add a link to js/licenses.js or conform %s" % str(package),
+                )
