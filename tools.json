@@ -29,6 +29,13 @@
 	"good_for": ["acquisition-screen_scraping"]
     },
     {
+    "name": "grab",
+    "code": "https://github.com/lorien/grab",
+    "docs": "http://grablib.org/",
+    "license": "MIT",
+    "good_for": ["acquisition-screen_scraping"]
+    },
+    {
 	"name": "httr",
 	"code": "https://github.com/hadley/httr",
 	"language": "R",
@@ -351,7 +358,27 @@
 	"license": "BSD",
 	"good_for": ["analysis-python"]
     },
-
+    {
+    "name": "statsmodels",
+    "docs": "http://statsmodels.sourceforge.net/stable/index.html",
+    "code": "https://github.com/statsmodels/statsmodels/",
+    "license": "BSD",
+    "good_for": ["analysis-python"]
+    },
+    {
+    "name": "patsy",
+    "docs": "http://patsy.readthedocs.org/en/latest/",
+    "code": "https://github.com/pydata/patsy",
+    "license": "BSD",
+    "good_for": ["analysis-python"]
+    },
+    {
+    "name": "fuzzywuzzy",
+    "code": "https://github.com/seatgeek/fuzzywuzzy",
+    "docs": "http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/",
+    "license": "MIT",
+    "good_for": ["analysis-python"]
+    },
     {
 	"name": "plyr",
 	"code": "https://github.com/hadley/plyr",
@@ -652,6 +679,12 @@
 	"license": "MIT",
 	"code": "https://github.com/DmitryBaranovskiy/raphael/",
 	"good_for": ["visualization-client"]
+    },
+    {
+    "name": "r2d3",
+    "code": "https://github.com/mhemesath/r2d3/",
+    "license": "MIT",
+    "good_for": ["visualization-client"]
     },
     {
 	"name": "dataTables",
