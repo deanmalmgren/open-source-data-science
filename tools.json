@@ -373,6 +373,13 @@
     "good_for": ["analysis-python"]
     },
     {
+    "name": "Theano",
+    "docs": "http://www.deeplearning.net/software/theano/",
+    "code": "https://github.com/Theano/Theano",
+    "license": "MIT",
+    "good_for": ["analysis-python"]
+    },
+    {
     "name": "fuzzywuzzy",
     "code": "https://github.com/seatgeek/fuzzywuzzy",
     "docs": "http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/",
