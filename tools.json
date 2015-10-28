@@ -383,7 +383,7 @@
     "name": "fuzzywuzzy",
     "code": "https://github.com/seatgeek/fuzzywuzzy",
     "docs": "http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/",
-    "license": "MIT",
+	"license": "MIT",
     "good_for": ["analysis-python"]
     },
     {
@@ -393,6 +393,14 @@
     "license": "Apache 2.0",
     "good_for": ["analysis-python"]
     },
+    {
+	"name": "agate",
+	"docs": "http://agate.readthedocs.org/",
+	"code": "https://github.com/onyxfish/agate",
+	"license": "MIT",
+	"good_for": ["analysis-python"]
+    },
+
     {
 	"name": "plyr",
 	"code": "https://github.com/hadley/plyr",
@@ -750,6 +758,14 @@
 	"name": "flo",
 	"docs": "http://flo.readthedocs.org/",
 	"code": "https://github.com/deanmalmgren/flo/",
+	"license": "MIT",
+	"good_for": ["organization-workflow"]
+    },
+    {
+	"name": "proof",
+	"docs": "http://proof.readthedocs.org/",
+	"code": "https://github.com/onyxfish/proof",
+	"license": "MIT",
 	"good_for": ["organization-workflow"]
     },
     {
