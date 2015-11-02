@@ -400,7 +400,13 @@
 	"license": "MIT",
 	"good_for": ["analysis-python"]
     },
-
+    {
+        "name": "keras",
+        "docs": "http://keras.io/",
+        "code": "https://github.com/fchollet/keras",
+        "license": "MIT",
+        "good_for": ["analysis-python"]
+    },
     {
 	"name": "plyr",
 	"code": "https://github.com/hadley/plyr",
