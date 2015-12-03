@@ -7,7 +7,7 @@
         ],
         "language": "python",
         "license": "Apache-2.0",
-        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",pu
         "name": "requests"
     },
     {
@@ -1162,6 +1162,7 @@
         "name": "fabric"
     },
     {
+        "code": "https://github.com/puppetlabs/puppet",
         "docs": "https://docs.puppetlabs.com/",
         "good_for": [
             "organization-provisioning"
@@ -1171,6 +1172,7 @@
         "name": "puppet"
     },
     {
+        "code": "https://github.com/chef/chef",
         "docs": "http://www.getchef.com/chef/",
         "good_for": [
             "organization-provisioning"
