@@ -32,6 +32,7 @@
         "name": "Scrapy"
     },
     {
+        "code": "https://github.com/SeleniumHQ/selenium",
         "docs": "http://www.seleniumhq.org/",
         "good_for": [
             "acquisition-screen_scraping"
