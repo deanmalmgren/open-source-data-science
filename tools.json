@@ -80,7 +80,7 @@
         "name": "facebook-sdk"
     },
     {
-        "code": "https://code.google.com/p/feedparser/",
+        "code": "https://github.com/kurtmckee/feedparser",
         "docs": "http://pythonhosted.org/feedparser/",
         "good_for": [
             "acquisition-api_wrappers"
