@@ -26,7 +26,7 @@ d3.json('../tools.json', function (error, tools) {
                 render: function (data, type, tool) {
                     if (tool.license) {
                         var url = LICENSES[tool.license];
-                        return '<a href="'+url+'">'+tool.license+'</a>';
+                        return '<a href="'+tool.license_url+'">'+tool.license+'</a>';
                     }
                     return unknown;
                 }

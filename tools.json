@@ -1,848 +1,1224 @@
 [
     {
-	"name": "requests",
-	"language": "python",
-	"code": "https://github.com/kennethreitz/requests",
-	"docs": "http://docs.python-requests.org/",
-	"license": "Apache 2.0",
-	"good_for": ["acquisition-screen_scraping"]
+        "code": "https://github.com/kennethreitz/requests",
+        "docs": "http://docs.python-requests.org/",
+        "good_for": [
+            "acquisition-screen_scraping"
+        ],
+        "language": "python",
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "requests"
     },
     {
-	"name": "beautifulsoup4",
-	"language": "python",
-	"code": "https://code.launchpad.net/beautifulsoup",
-	"docs": "http://www.crummy.com/software/BeautifulSoup/bs4/doc/",
-	"license": "MIT",
-	"good_for": ["acquisition-screen_scraping"]
-    },
-    {
-	"name": "Scrapy",
-	"code": "https://github.com/scrapy/scrapy",
-	"docs": "http://scrapy.org/",
-	"license": "BSD",
-	"good_for": ["acquisition-screen_scraping"]
-    },
-    {
-	"name": "Selenium",
-	"docs": "http://www.seleniumhq.org/",
-	"license": "Apache 2.0",
-	"good_for": ["acquisition-screen_scraping"]
-    },
-    {
-    "name": "grab",
-    "code": "https://github.com/lorien/grab",
-    "docs": "http://grablib.org/",
-    "license": "MIT",
-    "good_for": ["acquisition-screen_scraping"]
-    },
-    {
-	"name": "httr",
-	"code": "https://github.com/hadley/httr",
-	"language": "R",
-	"good_for": ["acquisition-screen_scraping"]
-    },
-
-    {
-	"name": "tweepy",
-	"docs": "http://www.tweepy.org/",
-	"code": "https://github.com/tweepy/tweepy/",
-	"license":"MIT",
-	"good_for": ["acquisition-api_wrappers"]
-    },
-    {
-	"name": "facebook-sdk",
-	"docs": "http://www.pythonforfacebook.com/",
-	"code": "https://github.com/pythonforfacebook/facebook-sdk",
-	"good_for": ["acquisition-api_wrappers"]
-    },
-    {
-	"name": "feedparser",
-	"docs": "http://pythonhosted.org/feedparser/",
-	"code": "https://code.google.com/p/feedparser/",
-	"good_for": ["acquisition-api_wrappers"]
-    },
-    {
-	"name": "Py-StackExchange",
-	"code": "https://github.com/lucjon/Py-StackExchange",
-	"license": "BSD",
-	"good_for": ["acquisition-api_wrappers"]
-    },
-
-    {
-	"name": "MySQLdb",
-	"docs": "http://mysql-python.sourceforge.net/MySQLdb-1.2.2/",
-	"code": "https://github.com/farcepest/MySQLdb1",
-	"good_for": ["acquisition-databases"]
-    },
-    {
-	"name": "pymongo",
-	"code": "https://github.com/mongodb/mongo-python-driver",
-	"docs": "http://api.mongodb.org/python/current/",
-	"license": "Apache 2.0",
-	"good_for": ["acquisition-databases"]
-    },
-    {
-	"name": "psycopg",
-	"code": "https://github.com/psycopg/psycopg2/",
-	"docs": "http://initd.org/psycopg/",
-	"license": "LGPL",
-	"good_for": ["acquisition-databases"]
-    },
-    {
-	"name": "rawes",
-	"code": "https://github.com/humangeo/rawes",
-	"language": "python",
-	"license": "Apache 2.0",
-	"good_for": ["acquisition-databases"]
-    },
-    {
-	"name": "RMySQL",
-	"code": "https://github.com/jeffreyhorner/RMySQL",
-	"docs": "http://biostat.mc.vanderbilt.edu/wiki/Main/RMySQL",
-	"language": "R",
-	"good_for": ["acquisition-databases"]
-    },
-    {
-	"name": "RPostgreSQL",
-	"code": "https://code.google.com/p/rpostgresql/",
-	"license": "GPL 2",
-	"language": "R",
-	"good_for": ["acquisition-databases"]
-    },
-    {
-	"name": "RMongo",
-	"code": "https://github.com/tc/RMongo",
-	"license": "GPL 3",
-	"language": "R",
-	"good_for": ["acquisition-databases"]
-    },
-
-    {
-	"name": "Tika",
-	"docs": "http://tika.apache.org/",
-	"code": "https://github.com/apache/tika/",
-	"license": "Apache 2.0",
-	"good_for": ["acquisition-flat_files"]
-    },
-    {
-	"name": "textract",
-	"code": "https://github.com/deanmalmgren/textract",
-	"docs": "http://textract.readthedocs.org/",
-	"license": "MIT",
-	"good_for": ["acquisition-flat_files"]
-    },
-    {
-	"name": "xlrd",
-	"docs": "http://www.python-excel.org/",
-	"code": "https://github.com/python-excel/xlrd",
-	"license": "BSD",
-	"good_for": ["acquisition-flat_files"]
-    },
-    {
-	"name": "foreign",
-	"docs": "http://cran.r-project.org/web/packages/foreign/",
-	"language": "R",
-	"license": "GPL 3",
-	"good_for": ["acquisition-flat_files"]
-    },
-
-    {
-	"name": "json format",
-    "docs": "http://www.json.org/",
-	"good_for": ["storage-flat_files"]
-    },
-    {
-	"name": "csv format",
-    "docs": "https://www.ietf.org/rfc/rfc4180.txt",
-	"good_for": ["storage-flat_files"]
-    },
-    {
-	"name": "xml format",
-    "docs": "http://www.w3.org/XML/",
-	"good_for": ["storage-flat_files"]
-    },
-    {
-	"name": "html format",
-    "docs": "http://www.w3.org/TR/html5/",
-	"good_for": ["storage-flat_files"]
-    },
-    {
-	"name": "graphml format",
-    "docs": "http://graphml.graphdrawing.org/",
-	"good_for": ["storage-flat_files"]
-    },
-    {
-	"name": "yaml format",
-    "docs": "http://yaml.org/",
-	"good_for": ["storage-flat_files"]
-    },
-    {
-	"name": "hdfs",
-    "code": "https://github.com/apache/hadoop",
-    "docs": "https://hadoop.apache.org/docs/r2.4.1/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html",
-    "license": "Apache 2.0",
-	"good_for": ["storage-flat_files"]
-    },
-    {
-	"name": "MySQL",
-	"docs": "http://www.mysql.com/",
-	"good_for": ["storage-relational"]
-    },
-    {
-	"name": "Postgres",
-	"docs": "http://www.postgresql.org/",
-	"good_for": ["storage-relational"]
-    },
-    {
-	"name": "Fusion tables",
-	"docs": "https://support.google.com/fusiontables/answer/2571232",
-	"good_for": ["storage-relational"]
-    },
-    {
-	"name": "Hive",
-	"docs": "https://hive.apache.org/",
-	"license": "Apache 2.0",
-	"good_for": ["storage-relational"]
-    },
-    {
-	"name": "HBase",
-	"docs": "https://hbase.apache.org/",
-	"license": "Apache 2.0",
-	"good_for": ["storage-relational"]
-    },
-
-    {
-	"name": "MongoDB",
-	"docs": "http://www.mongodb.org/",
-	"license": "AGPL 3.0",
-	"good_for": ["storage-nosql"]
-    },
-    {
-	"name": "Redis",
-	"docs": "http://redis.io/",
-	"code": "https://github.com/antirez/redis",
-	"license": "BSD",
-	"good_for": ["storage-nosql"]
-    },
-    {
-	"name": "Cassandra",
-	"docs": "https://cassandra.apache.org/",
-	"license": "Apache 2.0",
-	"good_for": ["storage-nosql"]
-    },
-    {
-	"name": "Neo4j",
-	"docs": "http://www.neo4j.org/",
-	"code": "https://github.com/neo4j/neo4j",
-	"license": "GPL 3",
-	"good_for": ["storage-nosql"]
-    },
-    {
-	"name": "ElasticSearch",
-	"docs": "http://www.elasticsearch.org/",
-	"code": "https://github.com/elasticsearch/elasticsearch",
-	"license": "BSD",
-	"good_for": ["storage-nosql"]
-    },
-
-    {
-	"name": "sort",
-	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/sort.1.html",
-	"license": "GPL 3",
-	"good_for": ["analysis-shell"]
-    },
-    {
-	"name": "uniq",
-	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/uniq.1.html",
-	"license": "GPL 3",
-	"good_for": ["analysis-shell"]
-    },
-    {
-	"name": "awk",
-	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/awk.1.html",
-	"good_for": ["analysis-shell"]
-    },
-    {
-	"name": "sed",
-	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/sed.1.html",
-	"license": "GPL 3",
-	"good_for": ["analysis-shell"]
-    },
-    {
-	"name": "grep",
-	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/grep.1.html",
-	"good_for": ["analysis-shell"]
-    },
-    {
-	"name": "cut",
-	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/cut.1.html",
-	"license": "GPL 3",
-	"good_for": ["analysis-shell"]
-    },
-    {
-	"name": "curl",
-	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/curl.1.html",
-	"good_for": ["analysis-shell"]
-    },
-    {
-	"name": "tr",
-	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/tr.1.html",
-	"license": "GPL 3",
-	"good_for": ["analysis-shell"]
-    },
-    {
-	"name": "xargs",
-	"docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/xargs.1.html",
-	"good_for": ["analysis-shell"]
-    },
-
-    {
-	"name": "scipy",
-	"docs": "http://www.scipy.org/",
-	"code": "https://github.com/scipy/scipy",
-	"license": "BSD",
-	"good_for": ["analysis-python"]
-    },
-    {
-	"name": "pandas",
-	"docs": "http://pandas.pydata.org/",
-	"code": "https://github.com/pydata/pandas",
-	"license": "BSD",
-	"good_for": ["analysis-python"]
-    },
-    {
-	"name": "scikit-learn",
-	"docs": "http://scikit-learn.org/",
-	"code": "https://github.com/scikit-learn/scikit-learn",
-	"license": "BSD",
-	"good_for": ["analysis-python"]
-    },
-    {
-	"name": "nltk",
-	"docs": "http://www.nltk.org/",
-	"code": "https://github.com/nltk/nltk",
-	"license": "Apache 2.0",
-	"good_for": ["analysis-python"]
-    },
-    {
-	"name": "textblob",
-	"docs": "http://textblob.readthedocs.org/",
-	"code": "https://github.com/sloria/textblob",
-	"license": "MIT",
-	"good_for": ["analysis-python"]
-    },
-    {
-	"name": "biopython",
-	"docs": "http://biopython.org/wiki/Main_Page",
-	"code": "https://github.com/biopython/biopython",
-	"good_for": ["analysis-python"]
-    },
-    {
-	"name": "Shapely",
-	"code": "https://github.com/Toblerity/Shapely",
-	"docs": "http://toblerity.org/shapely/manual.html",
-	"license": "BSD",
-	"good_for": ["analysis-python"]
-    },
-    {
-	"name": "Pillow",
-	"docs": "https://pillow.readthedocs.org/en/latest/",
-	"code": "https://github.com/python-pillow/Pillow",
-	"license": "MIT",
-	"good_for": ["analysis-python"]
-    },
-    {
-	"name": "NetworkX",
-	"docs": "https://networkx.github.io/",
-	"code": "https://github.com/networkx/networkx",
-	"license": "BSD",
-	"good_for": ["analysis-python"]
-    },
-    {
-    "name": "statsmodels",
-    "docs": "http://statsmodels.sourceforge.net/stable/index.html",
-    "code": "https://github.com/statsmodels/statsmodels/",
-    "license": "BSD",
-    "good_for": ["analysis-python"]
-    },
-    {
-    "name": "patsy",
-    "docs": "http://patsy.readthedocs.org/en/latest/",
-    "code": "https://github.com/pydata/patsy",
-    "license": "BSD",
-    "good_for": ["analysis-python"]
-    },
-    {
-    "name": "Theano",
-    "docs": "http://www.deeplearning.net/software/theano/",
-    "code": "https://github.com/Theano/Theano",
-    "license": "MIT",
-    "good_for": ["analysis-python"]
-    },
-    {
-    "name": "fuzzywuzzy",
-    "code": "https://github.com/seatgeek/fuzzywuzzy",
-    "docs": "http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/",
-	"license": "MIT",
-    "good_for": ["analysis-python"]
-    },
-    {
-    "name": "arrow",
-    "docs": "http://crsmithdev.com/arrow/",
-    "code": "https://github.com/crsmithdev/arrow",
-    "license": "Apache 2.0",
-    "good_for": ["analysis-python"]
-    },
-    {
-	"name": "agate",
-	"docs": "http://agate.readthedocs.org/",
-	"code": "https://github.com/onyxfish/agate",
-	"license": "MIT",
-	"good_for": ["analysis-python"]
-    },
-    {
-        "name": "keras",
-        "docs": "http://keras.io/",
-        "code": "https://github.com/fchollet/keras",
+        "code": "https://code.launchpad.net/beautifulsoup",
+        "docs": "http://www.crummy.com/software/BeautifulSoup/bs4/doc/",
+        "good_for": [
+            "acquisition-screen_scraping"
+        ],
+        "language": "python",
         "license": "MIT",
-        "good_for": ["analysis-python"]
-    },
-    {
-	"name": "plyr",
-	"code": "https://github.com/hadley/plyr",
-	"docs": "http://plyr.had.co.nz/",
-	"language": "R",
-	"license": "MIT",
-	"good_for": ["analysis-r"]
-    },
-    {
-	"name": "dplyr",
-	"code": "https://github.com/hadley/dplyr",
-	"docs": "http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html",
-	"language": "R",
-	"license": "MIT",
-	"good_for": ["analysis-r"]
-    },
-    {
-	"name": "data.table",
-	"code": "https://github.com/Rdatatable/data.table",
-	"docs": "http://datatable.r-forge.r-project.org/",
-	"language": "R",
-	"license": "GPL 3",
-	"good_for": ["analysis-r"]
-    },
-    {
-	"name": "qcc",
-	"docs": "http://cran.r-project.org/web/packages/qcc/",
-	"language": "R",
-	"license": "GPL 3",
-	"good_for": ["analysis-r"]
-    },
-    {
-	"name": "CausalImpact",
-	"code": "https://github.com/google/CausalImpact",
-	"docs": "http://google.github.io/CausalImpact/",
-	"language": "R",
-	"license": "Apache 2.0",
-	"good_for": ["analysis-r"]
-    },
-    {
-	"name": "randomForest",
-	"docs": "http://cran.r-project.org/web/packages/randomForest/",
-	"language": "R",
-	"license": "GPL 3",
-	"good_for": ["analysis-r"]
-    },
-    {
-	"name": "survival",
-	"docs": "http://cran.r-project.org/web/packages/survival/",
-	"language": "R",
-	"license": "GPL 3",
-	"good_for": ["analysis-r"]
-    },
-    {
-	"name": "mgcv",
-	"docs": "http://cran.r-project.org/web/packages/mgcv/",
-	"language": "R",
-	"license": "GPL 3",
-	"good_for": ["analysis-r"]
-    },
-    {
-    "name": "stringr",
-    "code": "https://github.com/hadley/stringr/",
-    "language": "R",
-    "license": "GPL 2",
-    "good_for": ["analysis-r"]
-    },
-    {
-	"name": "MapReduce",
-	"docs": "http://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html",
-	"good_for": ["analysis-hadoop"]
-    },
-    {
-	"name": "Hadoop streaming",
-	"docs": "http://hadoop.apache.org/docs/r1.2.1/streaming.html",
-	"good_for": ["analysis-hadoop"]
-    },
-    {
-	"name": "Mahout",
-	"docs": "https://mahout.apache.org/",
-	"code": "https://github.com/apache/mahout",
-	"license": "Apache 2.0",
-	"good_for": ["analysis-hadoop"]
-    },
-    {
-	"name": "Pig",
-	"docs": "http://pig.apache.org/",
-	"code": "https://github.com/apache/pig",
-	"license": "Apache 2.0",
-	"good_for": ["analysis-hadoop"]
-    },
-    {
-	"name": "Lucene/Solr",
-	"docs": "http://lucene.apache.org/",
-	"code": "https://github.com/apache/lucene-solr",
-	"license": "Apache 2.0",
-	"good_for": ["analysis-hadoop"]
-    },
-
-    {
-	"name": "SimpleHTTPServer",
-	"docs": "https://docs.python.org/2/library/simplehttpserver.html",
-	"good_for": ["web-static"]
-    },
-    {
-	"name": "Apache",
-	"docs": "http://httpd.apache.org/",
-	"code": "https://github.com/apache/httpd",
-	"license": "Apache 2.0",
-	"good_for": ["web-static"]
-    },
-
-    {
-	"name": "Django",
-	"docs": "https://www.djangoproject.com/",
-	"code": "https://github.com/django/django",
-	"language": "python",
-	"license": "BSD",
-	"good_for": ["web-server"]
-    },
-    {
-	"name": "Flask",
-	"docs": "http://flask.pocoo.org/",
-	"code": "https://github.com/mitsuhiko/flask",
-	"language": "python",
-	"license": "BSD",
-	"good_for": ["web-server"]
-    },
-    {
-	"name": "Ruby on Rails",
-	"docs": "http://rubyonrails.org/",
-	"code": "https://github.com/rails/rails",
-	"language": "ruby",
-	"license": "MIT",
-	"good_for": ["web-server"]
-    },
-    {
-	"name": "Jekyll",
-	"docs": "http://jekyllrb.com/",
-	"code": "https://github.com/jekyll/jekyll",
-	"language": "ruby",
-	"license": "MIT",
-	"good_for": ["web-server"]
-    },
-    {
-	"name": "celery",
-	"docs": "http://www.celeryproject.org/",
-	"code": "https://github.com/celery/celery",
-	"license": "BSD",
-	"good_for": ["web-server"]
-    },
-    {
-	"name": "rq",
-	"docs": "http://python-rq.org/",
-	"code": "https://github.com/nvie/rq",
-	"license": "BSD",
-	"good_for": ["web-server"]
-    },
-    {
-	"name": "shiny",
-	"docs": "http://shiny.rstudio.com/",
-	"code": "https://github.com/rstudio/shiny",
-	"language": "R",
-	"license": "GPL 3",
-	"good_for": ["web-server"]
-    },
-    {
-	"name": "Node.js",
-	"docs": "http://nodejs.org/",
-	"code": "https://github.com/joyent/node/",
-	"language": "javascript",
-	"good_for": ["web-server"]
-    },
-
-    {
-	"name": "backbone.js",
-	"docs": "http://backbonejs.org/",
-	"code": "https://github.com/jashkenas/backbone",
-	"license": "MIT",
-	"good_for": ["web-client"]
-    },
-    {
-	"name": "ember.js",
-	"docs": "http://emberjs.com/",
-	"code": "https://github.com/emberjs/ember.js",
-	"good_for": ["web-client"]
-    },
-    {
-	"name": "handlebars",
-	"docs": "http://handlebarsjs.com/",
-	"code": "https://github.com/wycats/handlebars.js/",
-	"good_for": ["web-client"]
-    },
-    {
-	"name": "Angular.js",
-	"docs": "https://angularjs.org/",
-	"code": "https://github.com/angular/angular.js",
-	"license": "MIT",
-	"good_for": ["web-client"]
-    },
-    {
-	"name": "sass",
-	"docs": "http://sass-lang.com/",
-	"code": "https://github.com/sass/sass",
-	"license": "MIT",
-	"good_for": ["web-client"]
-    },
-    {
-	"name": "Bootstrap",
-	"docs": "http://getbootstrap.com/",
-	"code": "https://github.com/twbs/bootstrap/",
-	"license": "MIT",
-	"good_for": ["web-client"]
-    },
-
-    {
-	"name": "jsfiddle",
-	"docs": "http://jsfiddle.net/",
-	"good_for": ["web-cloud"]
-    },
-    {
-	"name": "bl.ocks.org",
-	"docs": "http://bl.ocks.org/",
-	"license": "BSD",
-	"good_for": ["web-cloud"]
-    },
-    {
-	"name": "Plunker",
-	"docs": "http://plnkr.co/",
-	"good_for": ["web-cloud"]
-    },
-
-    {
-	"name": "ggplot2",
-	"docs": "http://ggplot2.org/",
-	"code": "https://github.com/hadley/ggplot2",
-	"good_for": ["visualization-server"]
-    },
-    {
-	"name": "matplotlib",
-	"docs": "http://matplotlib.org/",
-	"code": "https://github.com/matplotlib/matplotlib",
-	"good_for": ["visualization-server"]
-    },
-    {
-	"name": "processing",
-	"docs": "http://processing.org/",
-	"code": "https://github.com/processing/processing",
-	"good_for": ["visualization-server"]
-    },
-    {
-	"name": "xmgrace",
-	"docs": "http://plasma-gate.weizmann.ac.il/Grace/",
-	"good_for": ["visualization-server"]
-    },
-    {
-	"name": "pygrace",
-	"code": "https://github.com/pygrace/pygrace",
-	"docs": "http://pygrace.github.io/",
-	"good_for": ["visualization-server"]
-    },
-    {
-	"name": "ggvis",
-	"code": "https://github.com/rstudio/ggvis",
-	"docs": "http://ggvis.rstudio.com/",
-	"language": "R",
-	"good_for": ["visualization-server"]
-    },
-    {
-	"name": "knitr",
-	"code": "https://github.com/yihui/knitr",
-	"docs": "http://yihui.name/knitr/",
-	"language": "R",
-	"good_for": ["visualization-server"]
-    },
-
-    {
-	"name": "d3",
-	"code": "https://github.com/mbostock/d3",
-	"docs": "http://d3js.org/",
-	"license": "BSD",
-	"good_for": ["visualization-client"]
-    },
-    {
-	"name": "hicharts",
-	"docs": "http://www.highcharts.com/",
-	"code": "https://github.com/highslide-software/highcharts.com/",
-	"good_for": ["visualization-client"]
-    },
-    {
-	"name": "Leaflet",
-	"docs": "http://leafletjs.com/",
-	"code": "https://github.com/Leaflet/Leaflet/",
-	"good_for": ["visualization-client"]
-    },
-    {
-	"name": "Open Street Map",
-	"docs": "http://www.openstreetmap.org/",
-	"good_for": ["visualization-client"]
-    },
-    {
-	"name": "raphael.js",
-	"docs": "http://raphaeljs.com/",
-	"license": "MIT",
-	"code": "https://github.com/DmitryBaranovskiy/raphael/",
-	"good_for": ["visualization-client"]
-    },
-    {
-    "name": "r2d3",
-    "code": "https://github.com/mhemesath/r2d3/",
-    "license": "MIT",
-    "good_for": ["visualization-client"]
-    },
-    {
-	"name": "dataTables",
-	"docs": "http://datatables.net/",
-	"license": "MIT",
-	"code": "https://github.com/DataTables/DataTables",
-	"good_for": ["visualization-client"]
-    },
-
-    {
-	"name": "mercurial",
-	"docs": "http://mercurial.selenic.com/",
-	"good_for": ["organization-version_control"]
-    },
-    {
-	"name": "git",
-	"docs": "http://git-scm.com/",
-	"good_for": ["organization-version_control"]
-    },
-
-    {
-	"name": "shell script",
-    "docs": "http://www.gnu.org/software/bash/manual/bash.html",
-	"good_for": ["organization-workflow", "organization-provisioning"]
-    },
-    {
-	"name": "make",
-	"docs": "http://www.gnu.org/software/make/",
-	"good_for": ["organization-workflow"]
-    },
-    {
-    	"name": "luigi",
-    	"code": "https://github.com/spotify/luigi",
-    	"docs": "http://luigi.readthedocs.org/",
-    	"good_for": ["organization-workflow"]
-    },
-    {
-	"name": "drake",
-	"code": "https://github.com/Factual/drake",
-	"good_for": ["organization-workflow"]
-    },
-    {
-	"name": "flo",
-	"docs": "http://flo.readthedocs.org/",
-	"code": "https://github.com/deanmalmgren/flo/",
-	"license": "MIT",
-	"good_for": ["organization-workflow"]
-    },
-    {
-	"name": "proof",
-	"docs": "http://proof.readthedocs.org/",
-	"code": "https://github.com/onyxfish/proof",
-	"license": "MIT",
-	"good_for": ["organization-workflow"]
-    },
-    {
-	"name": "Taverna",
-	"docs": "http://www.taverna.org.uk/",
-	"good_for": ["organization-workflow"]
-    },
-    {
-	"name": "Kepler",
-	"docs": "https://kepler-project.org/",
-	"good_for": ["organization-workflow"]
-    },
-    {
-	"name": "Galaxy",
-	"docs": "http://galaxyproject.org/",
-	"good_for": ["organization-workflow"]
-    },
-    {
-	"name": "Oozie",
-	"docs": "http://oozie.apache.org/",
-	"code": "https://github.com/apache/oozie",
-	"license": "Apache 2.0",
-	"good_for": ["organization-workflow"]
-    },
-
-    {
-	"name": "fabtools",
-	"code": "https://github.com/ronnix/fabtools",
-	"docs": "http://fabtools.readthedocs.org/",
-	"good_for": ["organization-provisioning"]
-    },
-    {
-	"name": "fabric",
-	"docs": "http://www.fabfile.org/",
-	"code": "https://github.com/fabric/fabric/",
-	"good_for": ["organization-provisioning"]
-    },
-    {
-	"name": "puppet",
-	"docs": "https://docs.puppetlabs.com/",
-	"good_for": ["organization-provisioning"]
-    },
-    {
-	"name": "chef",
-	"docs": "http://www.getchef.com/chef/",
-	"good_for": ["organization-provisioning"]
-    },
-    {
-	"name": "packrat",
-	"docs": "http://rstudio.github.io/packrat/",
-	"code": "https://github.com/rstudio/packrat",
-	"language": "R",
-	"good_for": ["organization-provisioning"]
-    },
-
-    {
-	"name": "Vagrant",
-	"docs": "https://www.vagrantup.com/",
-	"code": "https://github.com/mitchellh/vagrant",
-	"good_for": ["organization-environment"]
-    },
-    {
-	"name": "Docker",
-	"docs": "https://www.docker.com/",
-	"code": "https://github.com/docker/docker",
-	"good_for": ["organization-environment"]
-    },
-    {
-	"name": "Virtualbox",
-	"docs": "https://www.virtualbox.org/",
-	"good_for": ["organization-environment"]
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "beautifulsoup4"
+    },
+    {
+        "code": "https://github.com/scrapy/scrapy",
+        "docs": "http://scrapy.org/",
+        "good_for": [
+            "acquisition-screen_scraping"
+        ],
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "Scrapy"
+    },
+    {
+        "code": "https://github.com/SeleniumHQ/selenium",
+        "docs": "http://www.seleniumhq.org/",
+        "good_for": [
+            "acquisition-screen_scraping"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "Selenium"
+    },
+    {
+        "code": "https://github.com/lorien/grab",
+        "docs": "http://grablib.org/",
+        "good_for": [
+            "acquisition-screen_scraping"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "grab"
+    },
+    {
+        "code": "https://github.com/hadley/httr",
+        "good_for": [
+            "acquisition-screen_scraping"
+        ],
+        "language": "R",
+        "name": "httr"
+    },
+    {
+        "code": "https://github.com/tweepy/tweepy/",
+        "docs": "http://www.tweepy.org/",
+        "good_for": [
+            "acquisition-api_wrappers"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "tweepy"
+    },
+    {
+        "code": "https://github.com/pythonforfacebook/facebook-sdk",
+        "docs": "http://www.pythonforfacebook.com/",
+        "good_for": [
+            "acquisition-api_wrappers"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "facebook-sdk"
+    },
+    {
+        "code": "https://github.com/kurtmckee/feedparser",
+        "docs": "http://pythonhosted.org/feedparser/",
+        "good_for": [
+            "acquisition-api_wrappers"
+        ],
+        "license": "BSD 2-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-2-Clause",
+        "name": "feedparser"
+    },
+    {
+        "code": "https://github.com/lucjon/Py-StackExchange",
+        "good_for": [
+            "acquisition-api_wrappers"
+        ],
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "Py-StackExchange"
+    },
+    {
+        "code": "https://github.com/farcepest/MySQLdb1",
+        "docs": "http://mysql-python.sourceforge.net/MySQLdb-1.2.2/",
+        "good_for": [
+            "acquisition-databases"
+        ],
+        "license": "GPL-2.0",
+        "license_url": "https://opensource.org/licenses/GPL-2.0",
+        "name": "MySQLdb"
+    },
+    {
+        "code": "https://github.com/mongodb/mongo-python-driver",
+        "docs": "http://api.mongodb.org/python/current/",
+        "good_for": [
+            "acquisition-databases"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "pymongo"
+    },
+    {
+        "code": "https://github.com/psycopg/psycopg2/",
+        "docs": "http://initd.org/psycopg/",
+        "good_for": [
+            "acquisition-databases"
+        ],
+        "license": "LGPL-3.0",
+        "license_url": "https://opensource.org/licenses/LGPL-3.0",
+        "name": "psycopg"
+    },
+    {
+        "code": "https://github.com/humangeo/rawes",
+        "good_for": [
+            "acquisition-databases"
+        ],
+        "language": "python",
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "rawes"
+    },
+    {
+        "code": "https://github.com/jeffreyhorner/RMySQL",
+        "docs": "http://biostat.mc.vanderbilt.edu/wiki/Main/RMySQL",
+        "good_for": [
+            "acquisition-databases"
+        ],
+        "language": "R",
+        "name": "RMySQL"
+    },
+    {
+        "code": "https://code.google.com/p/rpostgresql/",
+        "good_for": [
+            "acquisition-databases"
+        ],
+        "language": "R",
+        "license": "GPL-2.0",
+        "license_url": "https://opensource.org/licenses/GPL-2.0",
+        "name": "RPostgreSQL"
+    },
+    {
+        "code": "https://github.com/tc/RMongo",
+        "good_for": [
+            "acquisition-databases"
+        ],
+        "language": "R",
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "RMongo"
+    },
+    {
+        "code": "https://github.com/apache/tika/",
+        "docs": "http://tika.apache.org/",
+        "good_for": [
+            "acquisition-flat_files"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "Tika"
+    },
+    {
+        "code": "https://github.com/deanmalmgren/textract",
+        "docs": "http://textract.readthedocs.org/",
+        "good_for": [
+            "acquisition-flat_files"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "textract"
+    },
+    {
+        "code": "https://github.com/python-excel/xlrd",
+        "docs": "http://www.python-excel.org/",
+        "good_for": [
+            "acquisition-flat_files"
+        ],
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "xlrd"
+    },
+    {
+        "docs": "http://cran.r-project.org/web/packages/foreign/",
+        "good_for": [
+            "acquisition-flat_files"
+        ],
+        "language": "R",
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "foreign"
+    },
+    {
+        "docs": "http://www.json.org/",
+        "good_for": [
+            "storage-flat_files"
+        ],
+        "name": "json format"
+    },
+    {
+        "docs": "https://www.ietf.org/rfc/rfc4180.txt",
+        "good_for": [
+            "storage-flat_files"
+        ],
+        "name": "csv format"
+    },
+    {
+        "docs": "http://www.w3.org/XML/",
+        "good_for": [
+            "storage-flat_files"
+        ],
+        "name": "xml format"
+    },
+    {
+        "docs": "http://www.w3.org/TR/html5/",
+        "good_for": [
+            "storage-flat_files"
+        ],
+        "name": "html format"
+    },
+    {
+        "docs": "http://graphml.graphdrawing.org/",
+        "good_for": [
+            "storage-flat_files"
+        ],
+        "name": "graphml format"
+    },
+    {
+        "docs": "http://yaml.org/",
+        "good_for": [
+            "storage-flat_files"
+        ],
+        "name": "yaml format"
+    },
+    {
+        "code": "https://github.com/apache/hadoop",
+        "docs": "https://hadoop.apache.org/docs/r2.4.1/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html",
+        "good_for": [
+            "storage-flat_files"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "hdfs"
+    },
+    {
+        "docs": "http://www.mysql.com/",
+        "good_for": [
+            "storage-relational"
+        ],
+        "license": "GPL-2.0",
+        "license_url": "https://opensource.org/licenses/GPL-2.0",
+        "name": "MySQL"
+    },
+    {
+        "docs": "http://www.postgresql.org/",
+        "good_for": [
+            "storage-relational"
+        ],
+        "license": "PostgreSQL",
+        "license_url": "https://opensource.org/licenses/PostgreSQL",
+        "name": "Postgres"
+    },
+    {
+        "docs": "https://support.google.com/fusiontables/answer/2571232",
+        "good_for": [
+            "storage-relational"
+        ],
+        "name": "Fusion tables"
+    },
+    {
+        "docs": "https://hive.apache.org/",
+        "good_for": [
+            "storage-relational"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "Hive"
+    },
+    {
+        "docs": "https://hbase.apache.org/",
+        "good_for": [
+            "storage-relational"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "HBase"
+    },
+    {
+        "docs": "http://www.mongodb.org/",
+        "good_for": [
+            "storage-nosql"
+        ],
+        "license": "AGPL 3.0",
+        "license_url": "https://opensource.org/licenses/AGPL-3.0",
+        "name": "MongoDB"
+    },
+    {
+        "code": "https://github.com/antirez/redis",
+        "docs": "http://redis.io/",
+        "good_for": [
+            "storage-nosql"
+        ],
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "Redis"
+    },
+    {
+        "docs": "https://cassandra.apache.org/",
+        "good_for": [
+            "storage-nosql"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "Cassandra"
+    },
+    {
+        "code": "https://github.com/neo4j/neo4j",
+        "docs": "http://www.neo4j.org/",
+        "good_for": [
+            "storage-nosql"
+        ],
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "Neo4j"
+    },
+    {
+        "code": "https://github.com/elasticsearch/elasticsearch",
+        "docs": "http://www.elasticsearch.org/",
+        "good_for": [
+            "storage-nosql"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "ElasticSearch"
+    },
+    {
+        "docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/sort.1.html",
+        "good_for": [
+            "analysis-shell"
+        ],
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "sort"
+    },
+    {
+        "docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/uniq.1.html",
+        "good_for": [
+            "analysis-shell"
+        ],
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "uniq"
+    },
+    {
+        "docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/awk.1.html",
+        "good_for": [
+            "analysis-shell"
+        ],
+        "name": "awk"
+    },
+    {
+        "docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/sed.1.html",
+        "good_for": [
+            "analysis-shell"
+        ],
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "sed"
+    },
+    {
+        "docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/grep.1.html",
+        "good_for": [
+            "analysis-shell"
+        ],
+        "name": "grep"
+    },
+    {
+        "docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/cut.1.html",
+        "good_for": [
+            "analysis-shell"
+        ],
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "cut"
+    },
+    {
+        "docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/curl.1.html",
+        "good_for": [
+            "analysis-shell"
+        ],
+        "name": "curl"
+    },
+    {
+        "docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/tr.1.html",
+        "good_for": [
+            "analysis-shell"
+        ],
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "tr"
+    },
+    {
+        "docs": "http://manpages.ubuntu.com/manpages/trusty/en/man1/xargs.1.html",
+        "good_for": [
+            "analysis-shell"
+        ],
+        "name": "xargs"
+    },
+    {
+        "code": "https://github.com/scipy/scipy",
+        "docs": "http://www.scipy.org/",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "scipy"
+    },
+    {
+        "code": "https://github.com/pydata/pandas",
+        "docs": "http://pandas.pydata.org/",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "pandas"
+    },
+    {
+        "code": "https://github.com/scikit-learn/scikit-learn",
+        "docs": "http://scikit-learn.org/",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "scikit-learn"
+    },
+    {
+        "code": "https://github.com/nltk/nltk",
+        "docs": "http://www.nltk.org/",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "nltk"
+    },
+    {
+        "code": "https://github.com/sloria/textblob",
+        "docs": "http://textblob.readthedocs.org/",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "textblob"
+    },
+    {
+        "code": "https://github.com/biopython/biopython",
+        "docs": "http://biopython.org/wiki/Main_Page",
+        "good_for": [
+            "analysis-python"
+        ],
+        "name": "biopython"
+    },
+    {
+        "code": "https://github.com/Toblerity/Shapely",
+        "docs": "http://toblerity.org/shapely/manual.html",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "Shapely"
+    },
+    {
+        "code": "https://github.com/python-pillow/Pillow",
+        "docs": "https://pillow.readthedocs.org/en/latest/",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "Pillow"
+    },
+    {
+        "code": "https://github.com/networkx/networkx",
+        "docs": "https://networkx.github.io/",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "NetworkX"
+    },
+    {
+        "code": "https://github.com/statsmodels/statsmodels/",
+        "docs": "http://statsmodels.sourceforge.net/stable/index.html",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "statsmodels"
+    },
+    {
+        "code": "https://github.com/pydata/patsy",
+        "docs": "http://patsy.readthedocs.org/en/latest/",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "BSD 2-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-2-Clause",
+        "name": "patsy"
+    },
+    {
+        "code": "https://github.com/Theano/Theano",
+        "docs": "http://www.deeplearning.net/software/theano/",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "Theano"
+    },
+    {
+        "code": "https://github.com/seatgeek/fuzzywuzzy",
+        "docs": "http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "fuzzywuzzy"
+    },
+    {
+        "code": "https://github.com/crsmithdev/arrow",
+        "docs": "http://crsmithdev.com/arrow/",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "arrow"
+    },
+    {
+        "code": "https://github.com/onyxfish/agate",
+        "docs": "http://agate.readthedocs.org/",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "agate"
+    },
+    {
+        "code": "https://github.com/fchollet/keras",
+        "docs": "http://keras.io/",
+        "good_for": [
+            "analysis-python"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "keras"
+    },
+    {
+        "code": "https://github.com/hadley/plyr",
+        "docs": "http://plyr.had.co.nz/",
+        "good_for": [
+            "analysis-r"
+        ],
+        "language": "R",
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "plyr"
+    },
+    {
+        "code": "https://github.com/hadley/dplyr",
+        "docs": "http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html",
+        "good_for": [
+            "analysis-r"
+        ],
+        "language": "R",
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "dplyr"
+    },
+    {
+        "code": "https://github.com/Rdatatable/data.table",
+        "docs": "http://datatable.r-forge.r-project.org/",
+        "good_for": [
+            "analysis-r"
+        ],
+        "language": "R",
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "data.table"
+    },
+    {
+        "docs": "http://cran.r-project.org/web/packages/qcc/",
+        "good_for": [
+            "analysis-r"
+        ],
+        "language": "R",
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "qcc"
+    },
+    {
+        "code": "https://github.com/google/CausalImpact",
+        "docs": "http://google.github.io/CausalImpact/",
+        "good_for": [
+            "analysis-r"
+        ],
+        "language": "R",
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "CausalImpact"
+    },
+    {
+        "docs": "http://cran.r-project.org/web/packages/randomForest/",
+        "good_for": [
+            "analysis-r"
+        ],
+        "language": "R",
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "randomForest"
+    },
+    {
+        "docs": "http://cran.r-project.org/web/packages/survival/",
+        "good_for": [
+            "analysis-r"
+        ],
+        "language": "R",
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "survival"
+    },
+    {
+        "docs": "http://cran.r-project.org/web/packages/mgcv/",
+        "good_for": [
+            "analysis-r"
+        ],
+        "language": "R",
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "mgcv"
+    },
+    {
+        "code": "https://github.com/hadley/stringr/",
+        "good_for": [
+            "analysis-r"
+        ],
+        "language": "R",
+        "license": "GPL-2.0",
+        "license_url": "https://opensource.org/licenses/GPL-2.0",
+        "name": "stringr"
+    },
+    {
+        "docs": "http://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html",
+        "good_for": [
+            "analysis-hadoop"
+        ],
+        "name": "MapReduce"
+    },
+    {
+        "docs": "http://hadoop.apache.org/docs/r1.2.1/streaming.html",
+        "good_for": [
+            "analysis-hadoop"
+        ],
+        "name": "Hadoop streaming"
+    },
+    {
+        "code": "https://github.com/apache/mahout",
+        "docs": "https://mahout.apache.org/",
+        "good_for": [
+            "analysis-hadoop"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "Mahout"
+    },
+    {
+        "code": "https://github.com/apache/pig",
+        "docs": "http://pig.apache.org/",
+        "good_for": [
+            "analysis-hadoop"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "Pig"
+    },
+    {
+        "code": "https://github.com/apache/lucene-solr",
+        "docs": "http://lucene.apache.org/",
+        "good_for": [
+            "analysis-hadoop"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "Lucene/Solr"
+    },
+    {
+        "docs": "https://docs.python.org/2/library/simplehttpserver.html",
+        "good_for": [
+            "web-static"
+        ],
+        "name": "SimpleHTTPServer"
+    },
+    {
+        "code": "https://github.com/apache/httpd",
+        "docs": "http://httpd.apache.org/",
+        "good_for": [
+            "web-static"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "Apache"
+    },
+    {
+        "code": "https://github.com/django/django",
+        "docs": "https://www.djangoproject.com/",
+        "good_for": [
+            "web-server"
+        ],
+        "language": "python",
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "Django"
+    },
+    {
+        "code": "https://github.com/mitsuhiko/flask",
+        "docs": "http://flask.pocoo.org/",
+        "good_for": [
+            "web-server"
+        ],
+        "language": "python",
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "Flask"
+    },
+    {
+        "code": "https://github.com/rails/rails",
+        "docs": "http://rubyonrails.org/",
+        "good_for": [
+            "web-server"
+        ],
+        "language": "ruby",
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "Ruby on Rails"
+    },
+    {
+        "code": "https://github.com/jekyll/jekyll",
+        "docs": "http://jekyllrb.com/",
+        "good_for": [
+            "web-server"
+        ],
+        "language": "ruby",
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "Jekyll"
+    },
+    {
+        "code": "https://github.com/celery/celery",
+        "docs": "http://www.celeryproject.org/",
+        "good_for": [
+            "web-server"
+        ],
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "celery"
+    },
+    {
+        "code": "https://github.com/nvie/rq",
+        "docs": "http://python-rq.org/",
+        "good_for": [
+            "web-server"
+        ],
+        "license": "BSD 2-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-2-Clause",
+        "name": "rq"
+    },
+    {
+        "code": "https://github.com/rstudio/shiny",
+        "docs": "http://shiny.rstudio.com/",
+        "good_for": [
+            "web-server"
+        ],
+        "language": "R",
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "shiny"
+    },
+    {
+        "code": "https://github.com/joyent/node/",
+        "docs": "http://nodejs.org/",
+        "good_for": [
+            "web-server"
+        ],
+        "language": "javascript",
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "Node.js"
+    },
+    {
+        "code": "https://github.com/jashkenas/backbone",
+        "docs": "http://backbonejs.org/",
+        "good_for": [
+            "web-client"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "backbone.js"
+    },
+    {
+        "code": "https://github.com/emberjs/ember.js",
+        "docs": "http://emberjs.com/",
+        "good_for": [
+            "web-client"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "ember.js"
+    },
+    {
+        "code": "https://github.com/wycats/handlebars.js/",
+        "docs": "http://handlebarsjs.com/",
+        "good_for": [
+            "web-client"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "handlebars"
+    },
+    {
+        "code": "https://github.com/angular/angular.js",
+        "docs": "https://angularjs.org/",
+        "good_for": [
+            "web-client"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "Angular.js"
+    },
+    {
+        "code": "https://github.com/sass/sass",
+        "docs": "http://sass-lang.com/",
+        "good_for": [
+            "web-client"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "sass"
+    },
+    {
+        "code": "https://github.com/twbs/bootstrap/",
+        "docs": "http://getbootstrap.com/",
+        "good_for": [
+            "web-client"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "Bootstrap"
+    },
+    {
+        "docs": "http://jsfiddle.net/",
+        "good_for": [
+            "web-cloud"
+        ],
+        "name": "jsfiddle"
+    },
+    {
+        "docs": "http://bl.ocks.org/",
+        "good_for": [
+            "web-cloud"
+        ],
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "bl.ocks.org"
+    },
+    {
+        "docs": "http://plnkr.co/",
+        "good_for": [
+            "web-cloud"
+        ],
+        "name": "Plunker"
+    },
+    {
+        "code": "https://github.com/hadley/ggplot2",
+        "docs": "http://ggplot2.org/",
+        "good_for": [
+            "visualization-server"
+        ],
+        "license": "GPL-2.0",
+        "license_url": "https://opensource.org/licenses/GPL-2.0",
+        "name": "ggplot2"
+    },
+    {
+        "code": "https://github.com/matplotlib/matplotlib",
+        "docs": "http://matplotlib.org/",
+        "good_for": [
+            "visualization-server"
+        ],
+        "license": "Modified Python-2.0",
+        "license_url": "https://opensource.org/licenses/Python-2.0",
+        "name": "matplotlib"
+    },
+    {
+        "code": "https://github.com/processing/processing",
+        "docs": "http://processing.org/",
+        "good_for": [
+            "visualization-server"
+        ],
+        "license": "GPL-2.0",
+        "license_url": "https://opensource.org/licenses/GPL-2.0",
+        "name": "processing"
+    },
+    {
+        "docs": "http://plasma-gate.weizmann.ac.il/Grace/",
+        "good_for": [
+            "visualization-server"
+        ],
+        "license": "GPL-2.0",
+        "license_url": "https://opensource.org/licenses/GPL-2.0",
+        "name": "xmgrace"
+    },
+    {
+        "code": "https://github.com/pygrace/pygrace",
+        "docs": "http://pygrace.github.io/",
+        "good_for": [
+            "visualization-server"
+        ],
+        "name": "pygrace"
+    },
+    {
+        "code": "https://github.com/rstudio/ggvis",
+        "docs": "http://ggvis.rstudio.com/",
+        "good_for": [
+            "visualization-server"
+        ],
+        "language": "R",
+        "license": "GPL-2.0",
+        "license_url": "https://opensource.org/licenses/GPL-2.0",
+        "name": "ggvis"
+    },
+    {
+        "code": "https://github.com/yihui/knitr",
+        "docs": "http://yihui.name/knitr/",
+        "good_for": [
+            "visualization-server"
+        ],
+        "language": "R",
+        "license": "GPL-3.0",
+        "license_url": "https://opensource.org/licenses/GPL-3.0",
+        "name": "knitr"
+    },
+    {
+        "code": "https://github.com/mbostock/d3",
+        "docs": "http://d3js.org/",
+        "good_for": [
+            "visualization-client"
+        ],
+        "license": "BSD 3-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-3-Clause",
+        "name": "d3"
+    },
+    {
+        "code": "https://github.com/highslide-software/highcharts.com/",
+        "docs": "http://www.highcharts.com/",
+        "good_for": [
+            "visualization-client"
+        ],
+        "name": "hicharts"
+    },
+    {
+        "code": "https://github.com/Leaflet/Leaflet/",
+        "docs": "http://leafletjs.com/",
+        "good_for": [
+            "visualization-client"
+        ],
+        "license": "BSD 2-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-2-Clause",
+        "name": "Leaflet"
+    },
+    {
+        "docs": "http://www.openstreetmap.org/",
+        "good_for": [
+            "visualization-client"
+        ],
+        "name": "Open Street Map"
+    },
+    {
+        "code": "https://github.com/DmitryBaranovskiy/raphael/",
+        "docs": "http://raphaeljs.com/",
+        "good_for": [
+            "visualization-client"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "raphael.js"
+    },
+    {
+        "code": "https://github.com/mhemesath/r2d3/",
+        "good_for": [
+            "visualization-client"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "r2d3"
+    },
+    {
+        "code": "https://github.com/DataTables/DataTables",
+        "docs": "http://datatables.net/",
+        "good_for": [
+            "visualization-client"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "dataTables"
+    },
+    {
+        "docs": "http://mercurial.selenic.com/",
+        "good_for": [
+            "organization-version_control"
+        ],
+        "license": "GPL-2.0",
+        "license_url": "https://opensource.org/licenses/GPL-2.0",
+        "name": "mercurial"
+    },
+    {
+        "docs": "http://git-scm.com/",
+        "good_for": [
+            "organization-version_control"
+        ],
+        "license": "GPL-2.0",
+        "license_url": "https://opensource.org/licenses/GPL-2.0",
+        "name": "git"
+    },
+    {
+        "docs": "http://www.gnu.org/software/bash/manual/bash.html",
+        "good_for": [
+            "organization-workflow",
+            "organization-provisioning"
+        ],
+        "name": "shell script"
+    },
+    {
+        "docs": "http://www.gnu.org/software/make/",
+        "good_for": [
+            "organization-workflow"
+        ],
+        "name": "make"
+    },
+    {
+        "code": "https://github.com/spotify/luigi",
+        "docs": "http://luigi.readthedocs.org/",
+        "good_for": [
+            "organization-workflow"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "luigi"
+    },
+    {
+        "code": "https://github.com/Factual/drake",
+        "good_for": [
+            "organization-workflow"
+        ],
+        "license": "EPL-1.0",
+        "license_url": "https://opensource.org/licenses/EPL-1.0",
+        "name": "drake"
+    },
+    {
+        "code": "https://github.com/deanmalmgren/flo/",
+        "docs": "http://flo.readthedocs.org/",
+        "good_for": [
+            "organization-workflow"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "flo"
+    },
+    {
+        "code": "https://github.com/onyxfish/proof",
+        "docs": "http://proof.readthedocs.org/",
+        "good_for": [
+            "organization-workflow"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "proof"
+    },
+    {
+        "docs": "http://www.taverna.org.uk/",
+        "good_for": [
+            "organization-workflow"
+        ],
+        "name": "Taverna"
+    },
+    {
+        "docs": "https://kepler-project.org/",
+        "good_for": [
+            "organization-workflow"
+        ],
+        "name": "Kepler"
+    },
+    {
+        "docs": "http://galaxyproject.org/",
+        "good_for": [
+            "organization-workflow"
+        ],
+        "name": "Galaxy"
+    },
+    {
+        "code": "https://github.com/apache/oozie",
+        "docs": "http://oozie.apache.org/",
+        "good_for": [
+            "organization-workflow"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "Oozie"
+    },
+    {
+        "code": "https://github.com/ronnix/fabtools",
+        "docs": "http://fabtools.readthedocs.org/",
+        "good_for": [
+            "organization-provisioning"
+        ],
+        "license": "BSD 2-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-2-Clause",
+        "name": "fabtools"
+    },
+    {
+        "code": "https://github.com/fabric/fabric/",
+        "docs": "http://www.fabfile.org/",
+        "good_for": [
+            "organization-provisioning"
+        ],
+        "license": "BSD 2-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-2-Clause",
+        "name": "fabric"
+    },
+    {
+        "code": "https://github.com/puppetlabs/puppet",
+        "docs": "https://docs.puppetlabs.com/",
+        "good_for": [
+            "organization-provisioning"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "puppet"
+    },
+    {
+        "code": "https://github.com/chef/chef",
+        "docs": "http://www.getchef.com/chef/",
+        "good_for": [
+            "organization-provisioning"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "chef"
+    },
+    {
+        "code": "https://github.com/rstudio/packrat",
+        "docs": "http://rstudio.github.io/packrat/",
+        "good_for": [
+            "organization-provisioning"
+        ],
+        "language": "R",
+        "license": "GPL-2.0",
+        "license_url": "https://opensource.org/licenses/GPL-2.0",
+        "name": "packrat"
+    },
+    {
+        "code": "https://github.com/mitchellh/vagrant",
+        "docs": "https://www.vagrantup.com/",
+        "good_for": [
+            "organization-environment"
+        ],
+        "license": "MIT",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "name": "Vagrant"
+    },
+    {
+        "code": "https://github.com/docker/docker",
+        "docs": "https://www.docker.com/",
+        "good_for": [
+            "organization-environment"
+        ],
+        "license": "Apache-2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0",
+        "name": "Docker"
+    },
+    {
+        "docs": "https://www.virtualbox.org/",
+        "good_for": [
+            "organization-environment"
+        ],
+        "license": "GPL-2.0",
+        "license_url": "https://opensource.org/licenses/GPL-2.0",
+        "name": "Virtualbox"
     }
-
 ]
